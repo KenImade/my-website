@@ -1,10 +1,11 @@
+import ComingSoon from "../ComingSoon";
 import "./styles.css"
 
 
 function Blog() {
 
     return (
-        <div>Blog page</div>
+        <ComingSoon />
     )
 }
 

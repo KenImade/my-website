@@ -1,10 +1,13 @@
+import Header from "../../components/Header";
 import "./styles.css"
 
 
 function Home() {
 
     return (
-        <div>Home page</div>
+        <div>
+            <Header />
+        </div>
     )
 }
 
