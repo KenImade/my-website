@@ -1,31 +1,19 @@
+*{
+    --primary-color: #251D3A;
+    --secondary-color: #EE3232;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
 
+#root {
+    width: 100%;
+}
 
-.header {
+body{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 30px 80px 30px 20px;
-}
-
-.header--link {
-    text-decoration: none;
-    color: black;
-}
-
-
-.header--nav {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.nav--link {
-    font-size: 18px;
-    line-height: 1.5;
-    color: grey;
-}
-
-.nav--link:hover {
-    color: black;
-    font-weight: bold;
+    font-size: 20px;
 }
