@@ -1,0 +1,52 @@
+.hero {
+    background-color: var(--primary-color);
+    display: grid;
+    grid-template-columns: repeat(2, minmax(750px ,1fr));
+    padding: 2.5em;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero--img {
+    height: 300px;
+    width: 400px;
+    object-fit: cover;
+    padding: 0.8em;
+}
+
+.hero--text {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 0.8em;
+}
+
+.hero--text .hero--text--welcome {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #4B7BE5;
+}
+
+.hero--text .hero--text--name {
+    font-size: 3.5em;
+    color: #9FBAF5;
+}
+
+.hero--text .hero--text--value {
+    font-size: 1.8em;
+    font-weight: 400;
+    color: #4B7BE5;
+}
+
+
+@media (max-width: 780px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hero--img {
+        display: none;
+    }
+}
