@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
-import Projects from './pages/Projects';
-import Blog from './pages/Blog';
-import Contact from './pages/Contact';
+import Projects from './components/Projects';
+import Blog from './components/Blog';
+import Contact from './components/Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
