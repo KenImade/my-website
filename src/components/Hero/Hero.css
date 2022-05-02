@@ -3,6 +3,7 @@
     display: flex;
     padding: 2.5em;
     gap: 1.5em;
+    height: calc(100vh - 80px);
     align-items: center;
     justify-content: space-between;
 }
@@ -50,6 +51,8 @@
     .hero {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
     .hero--img {
