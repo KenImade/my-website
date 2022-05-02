@@ -1,11 +1,17 @@
 .hero {
     background-color: var(--primary-color);
-    display: grid;
-    grid-template-columns: repeat(2, minmax(750px ,1fr));
+    display: flex;
     padding: 2.5em;
     gap: 1.5em;
     align-items: center;
     justify-content: space-between;
+}
+
+.left--hero--section {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    gap: 1.5em;
 }
 
 .hero--img {
