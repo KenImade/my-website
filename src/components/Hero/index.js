@@ -1,7 +1,6 @@
 import "./Hero.css"
 import heroImg from "./../../images/website-construction.gif";
-import Button from "../Button";
-
+import Button from "./../Utils/Button"
 
 function Hero() {
 
