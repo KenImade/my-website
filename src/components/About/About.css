@@ -1,0 +1,95 @@
+.about {
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 2.5em;
+}
+
+.about--title {
+    position: relative;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0.6em;
+    color: #9FBAF5;
+}
+
+.about--title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    margin-right: 20px;
+    top: 50%;
+    right: 60%;
+    background-color: #9FBAF5;
+}
+
+.about--title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    top: 50%;
+    left: 60%;
+    background-color: #9FBAF5;
+}
+
+.about--info {
+    display: flex;
+    align-items: top;
+    padding: 0.8em;
+    gap: 0.5em;
+    line-height: 25px;
+}
+
+.about--info div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+}
+
+.about--info .about--text {
+    color: rgba(159, 186, 245, 0.50);
+}
+
+.about--img {
+    height: 366px;
+    width: 360px;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
+.skills--list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 10px;
+    list-style: none;
+}
+
+@media (max-width: 780px) {
+    .about--title::after {
+        width: 100px;
+        left: 5%;
+        margin-left: 5px;
+    }
+    .about--title::before {
+        width: 100px;
+        right: 5%;
+        margin-right: 5px;
+    }
+
+    .about--info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5em;
+        line-height: 25px;
+    }
+
+    .about--img {
+        margin-top: 0.8em;
+    }
+}
