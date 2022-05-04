@@ -93,5 +93,7 @@
 
     .about--img {
         margin-top: 0.8em;
+        max-height: 280px;
+        max-width: 240px;
     }
 }
