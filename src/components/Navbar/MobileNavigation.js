@@ -1,6 +1,6 @@
 import NavLinks from "./NavLinks";
 import {AiOutlineMenu} from "react-icons/ai";
-import {GrClose} from "react-icons/gr";
+import {AiOutlineCloseCircle} from "react-icons/ai";
 import { useState } from "react";
 
 function MobileNavigation() {
@@ -14,10 +14,10 @@ function MobileNavigation() {
                                 onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
                             />
 
-    const closeIcon = <GrClose 
+    const closeIcon = <AiOutlineCloseCircle 
                             className="hamburger--menu"  
                             size="40px" 
-                            color="#EE3232"
+                            color="white"
                             onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
                         />
 
