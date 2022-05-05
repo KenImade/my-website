@@ -72,17 +72,11 @@
 }
 
 @media (max-width: 780px) {
-    .about--title::after {
-        width: 100px;
-        left: 5%;
-        margin-left: 5px;
-    }
+    .about--title::after,
     .about--title::before {
-        width: 100px;
-        right: 5%;
-        margin-right: 5px;
+        display: none;
     }
-
+    
     .about--info {
         display: flex;
         flex-direction: column;
