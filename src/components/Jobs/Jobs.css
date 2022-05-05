@@ -1,0 +1,66 @@
+.jobs {
+    background-color: var(--primary-color);
+    padding: 2.5em;
+}
+
+.jobs--title {
+    position: relative;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 0.6em;
+    color: #9FBAF5;
+}
+
+.jobs--title::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    margin-right: 20px;
+    top: 50%;
+    right: 60%;
+    background-color: #9FBAF5;
+}
+
+.jobs--title::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    margin-left: 20px;
+    top: 50%;
+    left: 60%;
+    background-color: #9FBAF5;
+}
+
+.job--position {
+    color: #9FBAF5;
+    font-size: 1.5em;
+}
+
+.job--duty--list {
+    padding: 1.4em;
+}
+
+.job--duty {
+    padding:0.8em;
+    line-height: 25px;
+    font-size: 1.5em;
+}
+
+.bold {
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+
+@media (max-width: 780px) {
+    .jobs--title::after {
+        display: none;
+    }
+
+    .jobs--title::before {
+        display: none;
+    }
+}
