@@ -24,7 +24,7 @@ function Jobs() {
 
     return (
         <section className="jobs" id="experience">
-            <h1 className="jobs--title">Experience</h1>
+            <h1 className="jobs--title">Where I've Worked</h1>
             <div className="jobs--info">
                 <TabsContainer>
                     <Tabs selectedTab={activeTab} onChange={handleChange}>
