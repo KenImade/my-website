@@ -5,7 +5,7 @@ import profileImg from "./../../images/headshot.jpg";
 function About() {
 
     return (
-        <section className="about">
+        <section className="about" id="about">
             <h1 className="about--title">About Me</h1> 
             <div className="about--info">              
                 <div>

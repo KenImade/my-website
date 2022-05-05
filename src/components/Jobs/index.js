@@ -23,7 +23,7 @@ function Jobs() {
     }
 
     return (
-        <section className="jobs">
+        <section className="jobs" id="experience">
             <h1 className="jobs--title">Experience</h1>
             <div className="jobs--info">
                 <TabsContainer>

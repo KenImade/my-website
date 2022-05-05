@@ -3,7 +3,9 @@ import "./styles.css"
 function Contact() {
 
     return (
-        <div>Contact page</div>
+        <section className="contact" id="contact">
+
+        </section>
     )
 }
 

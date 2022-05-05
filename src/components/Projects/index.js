@@ -2,7 +2,9 @@
 function Projects() {
 
     return (
-        <div>Projects page</div>
+        <section className="projects" id="projects">
+
+        </section>
     )
 }
 

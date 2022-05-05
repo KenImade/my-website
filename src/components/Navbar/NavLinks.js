@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import {HashLink as Link} from "react-router-hash-link";
 
 
 function NavLinks(props) {
@@ -7,28 +7,28 @@ function NavLinks(props) {
         <div className="nav--links">
             <Link 
                 className="nav--link" 
-                to="/about"
+                to="#about"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 About
             </Link>
             <Link 
                 className="nav--link" 
-                to="/experience"
+                to="#experience"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Experience
             </Link>
             <Link 
                 className="nav--link" 
-                to="/projects"
+                to="#projects"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Projects
             </Link>
             <Link 
                 className="nav--link" 
-                to="/contact"
+                to="#contact"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Contact
