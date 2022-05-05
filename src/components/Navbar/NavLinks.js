@@ -8,6 +8,7 @@ function NavLinks(props) {
             <Link 
                 className="nav--link" 
                 to="#about"
+                smooth
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 About
@@ -15,6 +16,7 @@ function NavLinks(props) {
             <Link 
                 className="nav--link" 
                 to="#experience"
+                smooth
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Experience
@@ -22,6 +24,7 @@ function NavLinks(props) {
             <Link 
                 className="nav--link" 
                 to="#projects"
+                smooth
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Projects
@@ -29,6 +32,7 @@ function NavLinks(props) {
             <Link 
                 className="nav--link" 
                 to="#contact"
+                smooth
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Contact
