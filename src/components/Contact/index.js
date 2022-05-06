@@ -7,10 +7,9 @@ function Contact() {
             <h3 className="contact--title">What's next...? 🤔</h3>
             <h1>Get In Touch</h1>
             <div className="contact--list">
-                <a href="#" className="contact--item">Email</a>
-                <a href="https://www.linkedin.com/in/kenneth-imade/" className="contact--item">LinkedIn</a>
-                <a href="https://github.com/kenimade" className="contact--item">GitHub</a>
-                <a href="#" className="contact--item">StackOverflow</a>
+                <address><a href="mailto:kenimade91@gmail.com" className="contact--item" target="_blank" rel="noreferrer noopener">Email</a></address>
+                <address><a href="https://www.linkedin.com/in/kenneth-imade/" className="contact--item" target="_blank" rel="noreferrer noopener">LinkedIn</a></address>
+                <address><a href="https://github.com/kenimade" className="contact--item" target="_blank" rel="noreferrer noopener">GitHub</a></address>
             </div>
         </section>
     )
