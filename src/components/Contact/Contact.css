@@ -1,0 +1,30 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.contact--title {
+    font-size: 1.2em;
+    padding: 1.4em;
+    color: #9FBAF5;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.8em;
+    color: #4B7BE5;
+}
+
+.contact--list {
+    display: flex;
+    gap: 0.8em;
+}
+
+.contact--item {
+    color: #EE3232;
+    text-decoration: none;
+}
