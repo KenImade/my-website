@@ -3,6 +3,7 @@ import About from './components/About';
 import Hero from './components/Hero';
 import Jobs from './components/Jobs';
 import Navbar from './components/Navbar';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,15 +12,9 @@ function App() {
       <Hero />
       <About />
       <Jobs />
+      <Projects />
     </>
   );
 }
-
-// how am i going to build this website???
-// 1. home page
-// 2. projects page
-// 3. blog page
-// 4. contact page
-// 5. coming soon page
 
 export default App;
