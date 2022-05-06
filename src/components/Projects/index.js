@@ -69,7 +69,7 @@ function Projects() {
             </div>
 
             <Button>
-                See More Projects ➡️
+                View All ➡️
             </Button>
         </section>
     )
