@@ -5,9 +5,9 @@ import { useState } from "react";
 
 const TabsContainer = styled.section`
     display: flex;
-    padding: 0.5em;
-`;
-
+    pading: 0.5em;
+`
+;
 
 const TabsPanelContainer = styled.div`
     height: 500px; 

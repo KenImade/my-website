@@ -18,6 +18,7 @@ function Hero() {
             </section>
             <img src={heroImg} alt="website under construction" className="hero--img"/>
         </section>
+       
     )
 }
 

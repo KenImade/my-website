@@ -6,6 +6,8 @@
     height: calc(100vh - 80px);
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    top: 80px;
 }
 
 .left--hero--section {
