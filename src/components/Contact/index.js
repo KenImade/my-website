@@ -10,6 +10,7 @@ function Contact() {
                 <address><a href="mailto:kenimade91@gmail.com" className="contact--item" target="_blank" rel="noreferrer noopener">Email</a></address>
                 <address><a href="https://www.linkedin.com/in/kenneth-imade/" className="contact--item" target="_blank" rel="noreferrer noopener">LinkedIn</a></address>
                 <address><a href="https://github.com/kenimade" className="contact--item" target="_blank" rel="noreferrer noopener">GitHub</a></address>
+                <address><a href="https://twitter.com/kenneth1made" className="contact--item" target="_blank" rel="noreferrer noopener">Twitter</a></address>
             </div>
         </section>
     )
