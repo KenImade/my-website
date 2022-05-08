@@ -49,6 +49,12 @@
     color: #4B7BE5;
 }
 
+.hero--link {
+    text-align: center;
+    text-decoration: none;
+    color: #9FBAF5;
+}
+
 
 @media (max-width: 780px) {
     .hero {

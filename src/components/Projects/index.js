@@ -1,9 +1,9 @@
 import "./Projects.css";
 import styled from "styled-components";
 import projImg1 from "./../../images/website-snip.jpg";
+import { Link } from "react-router-dom";
 
 import {SiReact, SiWebpack, SiJavascript, SiHtml5} from "react-icons/si"
-import Button from "../Utils/Button";
 
 
 
@@ -68,9 +68,9 @@ function Projects() {
                 </ProjectCard>
             </div>
 
-            <Button>
-                View All ➡️
-            </Button>
+            <button className="button">
+                <Link to="/projects" className="projects--link">View All ➡️</Link>
+            </button>
         </section>
     )
 }

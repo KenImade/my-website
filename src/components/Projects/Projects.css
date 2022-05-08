@@ -75,6 +75,12 @@
     height: auto;
 }
 
+.projects--link {
+    text-align: center;
+    text-decoration: none;
+    color: #9FBAF5;
+}
+
 @media (max-width: 780px) {
     .projects--list {
         display: flex;
