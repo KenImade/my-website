@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Jobs from './components/Jobs';
 import Navbar from './components/Navbar';
 import Projects from './components/Projects';
+import TopNavigator from './components/Utils/TopNavigator';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Projects />
       <Contact />
       <Footer />
+      <TopNavigator />
     </>
   );
 }
