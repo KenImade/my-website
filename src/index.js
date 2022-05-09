@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Blog from './components/Blog';
 import Contact from './components/Contact';
 import About from "./components/About"
+import AllProjects from './components/AllProjects';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -20,6 +21,7 @@ root.render(
           <Route path="/#projects" element={<Projects />} />
           <Route path="/#blog" element={<Blog />}/>
           <Route path="/#contact" element={<Contact />} />
+          <Route path="/projects" element={<AllProjects />} />
         </Routes>
       </BrowserRouter>
     
