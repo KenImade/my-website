@@ -25,10 +25,13 @@
     text-decoration: none;
     color: var(--secondary-color);
     font-size: 0.85em;
+    transition: all 0.3s;
 }
 
 .navbar .nav--link:hover {
     border-bottom: 3px solid var(--secondary-color);
+    font-size: 1em;
+    color: #feca57;
 }
 
 .navbar .mobile--nav {
