@@ -2,8 +2,7 @@ import "./Projects.css";
 import styled from "styled-components";
 import projImg1 from "./../../images/website-snip.jpg";
 import { Link } from "react-router-dom";
-
-import {SiReact, SiWebpack, SiJavascript, SiHtml5} from "react-icons/si"
+import ProjectLinks from "../Utils/ProjectLinks";
 
 
 
@@ -31,40 +30,25 @@ function Projects() {
 
                     <p className="project--card--title">This Website</p>
 
-                    <div className="project--card--tools">
-                        <SiHtml5 className="card--logo" />
-                        <SiReact className="card--logo"/>
-                        <SiWebpack className="card--logo" />
-                        <SiJavascript className="card--logo" />
-                    </div>
+                    <ProjectLinks gitLink={"https://github.com/KenImade/my-website"} webLink={"https://my-website-bb37f.web.app/"}/>
                 </ProjectCard>
                 <ProjectCard>
                     <div className="project--card--img">
                         <img src={projImg1} alt="this website"  />
                     </div>
 
-                    <p className="project--card--title">This Website</p>
+                    <p className="project--card--title">Meme Generator</p>
 
-                    <div className="project--card--tools">
-                        <SiHtml5 className="card--logo" />
-                        <SiReact className="card--logo"/>
-                        <SiWebpack className="card--logo" />
-                        <SiJavascript className="card--logo" />
-                    </div>
+                    <ProjectLinks gitLink={"https://github.com/KenImade/meme-generator"} />
                 </ProjectCard>
                 <ProjectCard>
                     <div className="project--card--img">
                         <img src={projImg1} alt="this website"  />
                     </div>
 
-                    <p className="project--card--title">This Website</p>
+                    <p className="project--card--title">Calculator</p>
 
-                    <div className="project--card--tools">
-                        <SiHtml5 className="card--logo" />
-                        <SiReact className="card--logo"/>
-                        <SiWebpack className="card--logo" />
-                        <SiJavascript className="card--logo" />
-                    </div>
+                    <ProjectLinks gitLink={"https://github.com/KenImade/Calculator"} webLink={"https://kenimade.github.io/Calculator/"}/>
                 </ProjectCard>
             </div>
 

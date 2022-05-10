@@ -64,17 +64,6 @@
     padding: 0.6em;
 }
 
-.project--card--tools {
-    display: flex;
-    padding: 0.6em;
-    gap: 0.5em;
-}
-
-.card--logo {
-    width: 30px;
-    height: auto;
-}
-
 .projects--link {
     text-align: center;
     text-decoration: none;

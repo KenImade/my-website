@@ -1,8 +1,6 @@
 import styled from "styled-components";
 import Footer from "./Footer";
-import {AiOutlineGithub} from "react-icons/ai";
-import {GiNotebook} from "react-icons/gi";
-import {GoLinkExternal} from "react-icons/go";
+import ProjectLinks from "./Utils/ProjectLinks"
 import { HashLink as Link } from "react-router-hash-link";
 
 const StyledAllProjects = styled.section`
@@ -39,28 +37,6 @@ const Project = styled.div`
     justify-content: space-between;
 `
 
-const ProjectLinks = styled.div`
-    display: flex;
-    padding: 0.5em;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-`
-
-const ProjectLink = styled.button`
-
-    svg {
-        width: 30px;
-        height: auto;
-        color: #4B7BE5;
-    }
-
-    svg:hover {
-        color: orange;
-        cursor: pointer;
-    }
-`
-
 const StyledLink = styled.section`
     display: flex;
     height: 80px;
@@ -89,17 +65,15 @@ const AllProjects = () => {
                 <ProjectList>
                     <Project>
                         <ProjectTitle>1. This Website</ProjectTitle>
-                        <ProjectLinks>
-                            <ProjectLink as="a" href="#">
-                                <AiOutlineGithub />
-                            </ProjectLink>
-                            <ProjectLink as="a" href="#">
-                                <GiNotebook />
-                            </ProjectLink>
-                            <ProjectLink as="a" href="#">
-                                <GoLinkExternal />
-                            </ProjectLink>
-                        </ProjectLinks>
+                        <ProjectLinks gitLink={"https://github.com/KenImade/my-website"} webLink={"https://my-website-bb37f.web.app/"} />
+                    </Project>
+                    <Project>
+                        <ProjectTitle>2. Meme Generator</ProjectTitle>
+                        <ProjectLinks gitLink={"https://github.com/KenImade/meme-generator"} />
+                    </Project>
+                    <Project>
+                        <ProjectTitle>3. Calculator</ProjectTitle>
+                        <ProjectLinks gitLink={"https://github.com/KenImade/Calculator"} webLink={"https://kenimade.github.io/Calculator/"}/>
                     </Project>
                 </ProjectList>
             </StyledAllProjects>
