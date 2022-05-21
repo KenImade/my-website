@@ -14,7 +14,7 @@ function About() {
                         and what I am learning right now.
                     </p>
                     <p className="about--text">
-                        A solution-oriented team player with a recognized aptitude for innovative thinking.
+                        I am a solution-oriented team player with a recognized aptitude for innovative thinking.
                         I am enthusiastic, responsible, and hardworking. Having worked on different projects, it has helped me to adapt to changes quickly and made me a mature team worker.
                         I can work well both in a team environment and as well as using my own initiative.
                     </p>
@@ -26,6 +26,10 @@ function About() {
                         <li className="about--text">React</li>
                         <li className="about--text">Node.js</li>
                         <li className="about--text">SQL</li>
+                        <li className="about--text">TypeScript</li>
+                        <li className="about--text">Java</li>
+                        <li className="about--text">Python</li>
+                        <li className="about--text">Ruby</li>
                     </ul>
                 </div>
                 <img src={profileImg} alt="kenneth" className="about--img"/>
