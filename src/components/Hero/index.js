@@ -10,7 +10,7 @@ function Hero() {
                 <div className="hero--text">
                     <h2 className="hero--text--welcome">Hi 👋, my name is</h2>
                     <h1 className="hero--text--name">Kenneth Imade.</h1>
-                    <h2 className="hero--text--value">I build cool things using code.</h2>
+                    <h2 className="hero--text--value">I solve problems using code.</h2>
                 </div>
                 <button className="button">
                     <Link
