@@ -31,6 +31,14 @@ function NavLinks(props) {
             </Link>
             <Link 
                 className="nav--link" 
+                to="#blog"
+                smooth
+                onClick={()=> props.isMobile && props.closeMobileMenu()}
+            >
+                Blog
+            </Link>
+            <Link 
+                className="nav--link" 
                 to="#contact"
                 smooth
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
