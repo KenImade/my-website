@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Route, Routes} from "react-router-dom";
+import {HashRouter, Route, Routes} from "react-router-dom";
 
 import './index.css';
 import App from './App';
@@ -16,7 +16,7 @@ import BlogPost from './components/Utils/BlogPost';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
         <Routes>
           <Route path="/" element={<App />} />
           <Route path="/#about" element={<About />} />
@@ -27,7 +27,7 @@ root.render(
           <Route path="/#contact" element={<Contact />} />
           <Route path="/projects" element={<AllProjects />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     
   </React.StrictMode>
 );
