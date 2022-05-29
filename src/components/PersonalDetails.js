@@ -22,6 +22,7 @@ const PersonalDetailsSection = styled(StyledSection)`
 
     .personal-details--text {
         font-size: 1.2rem;
+        color: var(--secondary-color);
     }
 
     .personal-details--link {
@@ -45,6 +46,7 @@ const PersonalDetailsSection = styled(StyledSection)`
             text-align: left;
             line-height: 18px;
         }
+    }
 `
 
 function PersonalDetails() {

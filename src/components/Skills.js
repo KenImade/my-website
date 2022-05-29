@@ -22,10 +22,15 @@ const SkillSection = styled(StyledSection)`
         align-items: center;
     }
 
+    ul li {
+        color: var(--secondary-color);
+    }
+
     .skill-title {
         font-size: 1.1rem;
         text-align: center;
         margin-bottom: 20px;
+        color: var(--header-color);
     }
 
     @media (max-width: 780px) {

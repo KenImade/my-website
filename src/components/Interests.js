@@ -33,6 +33,7 @@ const InterestsSection = styled(StyledSection)`
 
             p {
                 text-align: center;
+                color: var(--secondary-color);
             }
         }
     }
