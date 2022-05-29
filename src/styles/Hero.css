@@ -1,13 +1,10 @@
 .hero {
-    background-color: var(--primary-color);
+    background-color: var(--background-color);
     display: flex;
-    padding: 2.5em;
-    gap: 1.5em;
-    height: calc(100vh - 80px);
+    gap: 1.5rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     position: relative;
-    top: 80px;
 }
 
 .left--hero--section {
@@ -18,41 +15,48 @@
 }
 
 .hero--img {
-    height: 350px;
-    width: 500px;
+    height: auto;
+    max-width: 40%;
     object-fit: cover;
-    padding: 0.8em;
-    opacity: 0.6;
+    padding: 2.8rem;
 }
 
 .hero--text {
     display: flex;
     flex-direction: column;
     justify-content: left;
-    gap: 0.8em;
+    gap: 1.2rem;
 }
 
 .hero--text .hero--text--welcome {
-    font-size: 1.8em;
-    font-weight: 400;
-    color: #4B7BE5;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: var(--headers-color);
 }
 
 .hero--text .hero--text--name {
-    font-size: 3.5em;
-    color: #9FBAF5;
+    font-size: 3.5rem;
+    color: var(--headers-color);
 }
 
 .hero--text .hero--text--value {
-    font-size: 1.8em;
+    font-size: 1.5rem;
     font-weight: 400;
-    color: #4B7BE5;
+    color: var(--secondary-color);
 }
 
 .hero--link {
     text-align: center;
-    text-decoration: none;
-    color: #9FBAF5;
+    color: var(--primary-color);
+    background-color: var(--hover-color);
+    font-size: large;
+    padding: 1.5rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+
+.hero--link:hover {
+    background-color: var(--headers-color);
 }
 
 
@@ -65,6 +69,8 @@
     }
 
     .hero--img {
-        display: none;
+        max-width: 350px;
+        height: auto;
     }
+
 }

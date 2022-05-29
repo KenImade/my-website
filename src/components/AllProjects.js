@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Footer from "./Footer";
-import ProjectLinks from "./Utils/ProjectLinks"
+// import ProjectLinks from "./Utils/ProjectLinks"
 import { HashLink as Link } from "react-router-hash-link";
 
 const StyledAllProjects = styled.section`
@@ -63,7 +63,7 @@ const AllProjects = () => {
                     All Projects
                 </AllProjectsTitle>
                 <ProjectList>
-                    <Project>
+                    {/* <Project>
                         <ProjectTitle>1. This Website</ProjectTitle>
                         <ProjectLinks gitLink={"https://github.com/KenImade/my-website"} webLink={"https://my-website-bb37f.web.app/"} />
                     </Project>
@@ -74,7 +74,7 @@ const AllProjects = () => {
                     <Project>
                         <ProjectTitle>3. Calculator</ProjectTitle>
                         <ProjectLinks gitLink={"https://github.com/KenImade/Calculator"} webLink={"https://kenimade.github.io/Calculator/"}/>
-                    </Project>
+                    </Project> */}
                 </ProjectList>
             </StyledAllProjects>
             <Footer />

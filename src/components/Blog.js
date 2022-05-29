@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import BlogLink from "./Utils/BlogLink";
+// import BlogLink from "./Utils/BlogLink";
 
 const BlogSection = styled.section`
     background-color: #251D3A;
@@ -34,9 +34,9 @@ function Blog(props) {
                 Latest Posts
             </BlogHeader>
             <BlogList>
+                {/* <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/>
                 <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/>
-                <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/>
-                <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/>
+                <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/> */}
             </BlogList>
             <button className="button">
                 <Link to="/posts" className="projects--link">View All ➡️</Link>

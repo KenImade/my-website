@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BlogLink from "./Utils/BlogLink";
+// import BlogLink from "./Utils/BlogLink";
 
 
 const StyledPosts = styled.div`
@@ -30,7 +30,7 @@ function Posts() {
             <h1 className="post--title">Posts</h1>
             <hr />
             <div className="posts--list">
-                <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/>
+                {/* <BlogLink postTitle="The Temporal Dead Zone in JavaScript" postDate="May 29, 2021" postLink="the-temporal-dead-zone"/> */}
             </div>
         </StyledPosts>
     )

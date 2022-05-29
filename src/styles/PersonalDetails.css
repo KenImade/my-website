@@ -1,0 +1,38 @@
+.personal-details {
+    background-color: var(--background-color);
+}
+
+.personal-details--title {
+    font-size: 2.5rem;
+}
+
+.personal-details div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0.5rem;
+    border-left: 3px solid var(--hover-color);
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.personal-details--text {
+    font-size: 1.2rem;
+}
+
+.personal-details--link {
+    /* position: fixed; */
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--hover-color);
+    font-size: large;
+    padding: 1.2rem;
+    border-radius: 10px;
+    width: auto;
+    transition: all 0.5s;
+    /* margin-top: 30px; */
+}
+
+.personal-details--link:hover {
+    background-color: var(--headers-color);
+}
