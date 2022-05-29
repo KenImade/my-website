@@ -59,7 +59,7 @@ function Footer() {
         <StyledFooter>
             <div className="website-desc">
                 <h3 className="website-desc-title">About this Site</h3>
-                This website was created using the React Library. 
+                I built this website using the React Library. 
                 It is hosted on a Netlify server. The source code can
                 be found <a className="link" href="https://github.com/KenImade/my-website">here</a>.
             </div>
