@@ -38,7 +38,7 @@ const ProjectSection = styled(StyledSection)`
     }
 
     .project--card--title {
-        color: var(--secondary-color);
+        color: var(--headers-color);
         font-size: 1.4em;
         text-align: center;
     }
