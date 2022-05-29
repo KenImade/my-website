@@ -39,9 +39,8 @@ const ProjectSection = styled(StyledSection)`
 
     .project--card--title {
         color: var(--secondary-color);
-        font-size: 1.2rem;
+        font-size: 1.4em;
         text-align: center;
-        transition: all 0.5s;
     }
 
     .project--card--title:hover {
@@ -64,6 +63,10 @@ const ProjectSection = styled(StyledSection)`
             align-items: center;
             justify-content: center;
             gap: 1.2rem;
+        }
+
+        .project--card {
+            margin-bottom: 1.5rem;
         }
     }
 `
