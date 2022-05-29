@@ -44,6 +44,12 @@ const StyledFooter = styled.footer`
         color: var(--hover-color);
     }
 
+    @media(max-width: 780px) {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+
 `
 
 
