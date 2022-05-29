@@ -29,6 +29,10 @@ const SkillSection = styled(StyledSection)`
     }
 
     @media (max-width: 780px) {
+        .skills--list {
+            display: flex;
+            flex-direction: column;
+        }
     }
 `
 
