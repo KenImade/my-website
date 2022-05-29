@@ -4,13 +4,12 @@ import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
 
 const HeroSection = styled(StyledSection)`
-
-    background-color: var(--background-color);
     display: flex;
     gap: 1.5rem;
     align-items: center;
     justify-content: space-around;
     position: relative;
+    margin-top: 85px;
 
     .left--hero--section {
         display: flex;
@@ -75,7 +74,7 @@ const HeroSection = styled(StyledSection)`
         align-items: center;
         justify-content: center;
         padding: 1.5rem;
-        margin-top: 80px;
+        margin-top: 95px;
 
 
         .hero--img {
