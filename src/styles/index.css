@@ -66,3 +66,9 @@ button:hover {
 .margin {
   margin-bottom: 50px;
 }
+
+@media(max-width: 780px) {
+  .section {
+    padding: 0px;
+  }
+}
