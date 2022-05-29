@@ -2,7 +2,7 @@ import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
 import {AiOutlineCloud} from "react-icons/ai";
 import {FiDatabase} from "react-icons/fi";
-// import {MdOutlineWebAsset} from "react-icons/md";
+import {MdOutlineWebAsset} from "react-icons/md";
 
 const InterestsSection = styled(StyledSection)`
     .interests--title {
@@ -38,14 +38,18 @@ const InterestsSection = styled(StyledSection)`
     }
 
     @media (max-width: 780px) {
-    .interests-list {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 1.2rem;
+        .interests-list {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 1.2rem;
+        }
+
+        .interest-card {
+            margin-bottom: 0.5rem;
+        }
     }
-}
 `
 
 function Interests() {
@@ -68,11 +72,11 @@ function Interests() {
                     <p>I utilize AWS to develop and productionize machine learning systems.</p>
                 </div>
 
-                {/* <div className="interest-card">
+                <div className="interest-card">
                     <MdOutlineWebAsset size="50px"/>
                     <h3>Web Development</h3>
                     <p>I utilize AWS to develop and productionize machine learning systems.</p>
-                </div> */}
+                </div>
             </div>
         </InterestsSection>
     )
