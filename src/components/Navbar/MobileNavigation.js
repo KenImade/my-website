@@ -9,15 +9,15 @@ function MobileNavigation() {
 
     const hamburgerIcon = <AiOutlineMenu 
                                 className="hamburger--menu"  
-                                size="40px" 
-                                color="#EE3232"
+                                size="30px" 
+                                color="#222222"
                                 onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
                             />
 
     const closeIcon = <AiOutlineCloseCircle 
                             className="hamburger--menu"  
-                            size="40px" 
-                            color="white"
+                            size="30px" 
+                            color="#222222"
                             onClick={() => setDisplayMobileMenu(!displayMobileMenu)}
                         />
 
