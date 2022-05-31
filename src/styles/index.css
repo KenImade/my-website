@@ -45,6 +45,11 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  text-decoration: none;
+  color: var(--headers-color);
+}
+
 button {
   height: 50px;
   width: 200px;
@@ -71,6 +76,11 @@ button:hover {
 
 .margin {
   margin-bottom: 50px;
+}
+
+svg:hover {
+  size: 6rem;
+  color: var(--hover-color);
 }
 
 @media(max-width: 780px) {

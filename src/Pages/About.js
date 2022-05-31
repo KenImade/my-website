@@ -2,7 +2,7 @@ import profileImg from "./../images/headshot.jpg";
 import styled from "styled-components";
 import Banner from "../components/Utils/Banner";
 import StyledSection from "../components/Utils/StyledSection"
-import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
+// import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
 
 
 const AboutSection = styled.section`
@@ -118,7 +118,7 @@ const AboutSection = styled.section`
     }
 
     .faq-section {
-        margin-top: 50px;
+        margin-top: 80px;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -130,28 +130,28 @@ const AboutSection = styled.section`
             margin-bottom: 20px;
         }
 
+        .accordion {
+            width: 80%;
+        }
+
         .accordion-item {
             background-color: var(--background-color);
             border-radius: .4rem;
             margin-bottom: 1rem;
             padding: 1 rem;
-            box-shadow: .5rem 2px .5rem rgba(0,0,0,.1);
+            box-shadow: .5rem 2px .5rem 2px rgba(0,0,0,.1);
         }
 
         .accordion-link {
             font-size: 1.4rem;
             color: rgba(255, 255, 255, ,.8);
             text-decoration: none;
-            background-color: var(--hover-color);
+            background-color: var(--primary-color);
             width: 100%;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 1rem 0;
-        }
-
-        .accordion-link {
-
+            padding: 1rem 2rem;
         }
 
         .answer {
@@ -162,7 +162,7 @@ const AboutSection = styled.section`
             transition: max-height 650ms;
         }
 
-        .answer::before {
+        ${'' /* .answer::before {
             content: "";
             position: absolute;
             width: .6rem;
@@ -171,16 +171,19 @@ const AboutSection = styled.section`
             top: 50%;
             left: 0;
             transform: translateY(-50%);
-        }
+        } */}
 
         .answer p {
-            padding: .2rem;
-            color: black;
+            padding: 1rem 2rem;
+            color: var(--secondary-color);
             text-align: left;
+            line-height: 25px;
+            font-size: 1.2rem;
+            border-left: 2px solid var(--hover-color);
         }
 
         .accordion-item:target .answer {
-            max-height: 20rem;
+            max-height: 100rem;
         }
 
         .accordion-item:target svg {
@@ -191,41 +194,46 @@ const AboutSection = styled.section`
 
     @media (max-width: 780px) {
 
-        .about--img {
-            margin-top: 0.8em;
-            max-height: 280px;
-            max-width: 240px;
+        margin: 0px;
+        padding: 0px;
+
+        .experience-section {
+            margin-top: 80px;
+            /* Place the timelime to the left */
+            .timeline::after {
+                left: 30px;
+            }
+
+            /* Full-width containers */
+            .container {
+                width: 100%;
+                padding-left: 70px;
+                padding-right: 25px;
+            }
+
+            /* Make sure that all arrows are pointing leftwards */
+            .container::before {
+                left: 60px;
+                border: medium solid var(--background-color);
+                border-width: 10px 10px 10px 0;
+                border-color: transparent var(--background-color) transparent transparent;
+            }
+
+            /* Make sure all circles are at the same spot */
+            .left::after, .right::after {
+                left: 15px;
+            }
+
+            /* Make all right containers behave like the left ones */
+            .right {
+                left: 0%;
+            }
         }
 
-        /* Place the timelime to the left */
-        .timeline::after {
-            left: 31px;
+        .faq-section {
+            margin-bottom: 80px;
         }
-
-        /* Full-width containers */
-        .container {
-            width: 100%;
-            padding-left: 70px;
-            padding-right: 25px;
-        }
-
-        /* Make sure that all arrows are pointing leftwards */
-        .container::before {
-            left: 60px;
-            border: medium solid white;
-            border-width: 10px 10px 10px 0;
-            border-color: transparent white transparent transparent;
-        }
-
-        /* Make sure all circles are at the same spot */
-        .left::after, .right::after {
-            left: 15px;
-        }
-
-        /* Make all right containers behave like the left ones */
-        .right {
-            left: 0%;
-        }
+        
     }
 `
 
@@ -278,6 +286,31 @@ const ProfileSection = styled(StyledSection)`
 
         a:hover {
             background-color: var(--headers-color);
+        }
+    }
+
+    @media (max-width: 780px) {
+        margin: 0;
+        padding: 0;
+
+        .intro, .info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about--texts .about--text {
+            padding: 0.4rem 1.5rem;
+            text-align: center;
+        }
+
+        .about--img {
+            margin-top: 3rem;
+            max-height: auto;
+            max-width: 300px;
         }
     }
 `
@@ -336,15 +369,14 @@ function About() {
                         </div>
                     </div>
                 </div>
-
+                <br id="faq"/>
                 <div className="faq-section">
-                    <h3 className="faq-section-title" id="faq">Any Questions?</h3>
+                   
+                    <h3 className="faq-section-title" >Any Questions?</h3>
                     <div className="accordion">
                         <div className="accordion-item" id="question1">
                             <a className="accordion-link" href="#question1">
                                 How long have you been programming?
-                                <AiOutlinePlus color="#e7d5ff" />
-                                <AiOutlineMinus color="#e7d5ff" />
                             </a>
                             <div className="answer">
                                 <p>
@@ -356,8 +388,6 @@ function About() {
                         <div className="accordion-item" id="question2">
                             <a className="accordion-link" href="#question2">
                                 How long have you been programming?
-                                <AiOutlinePlus color="#e7d5ff"/>
-                                <AiOutlineMinus color="#e7d5ff"/>
                             </a>
                             <div className="answer">
                                 <p>
@@ -369,8 +399,6 @@ function About() {
                         <div className="accordion-item" id="question3">
                             <a className="accordion-link" href="#question3">
                                 How long have you been programming?
-                                <AiOutlinePlus color="#e7d5ff"/>
-                                <AiOutlineMinus color="#e7d5ff"/>
                             </a>
                             <div className="answer">
                                 <p>
@@ -382,8 +410,6 @@ function About() {
                         <div className="accordion-item" id="question4">
                             <a className="accordion-link" href="#question4">
                                 How long have you been programming?
-                                <AiOutlinePlus color="#e7d5ff"/>
-                                <AiOutlineMinus color="#e7d5ff"/>
                             </a>
                             <div className="answer">
                                 <p>
