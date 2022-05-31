@@ -338,7 +338,7 @@ function About() {
                         <div className="info">
                             <h1>PERSONAL DETAILS</h1>
                             <h3>Here's some info about me</h3>
-                            <div><a href="#faq">ABOUT ME</a></div>
+                            <div><a href="#faq">About Me</a></div>
                         </div>
                     </div>
                     <div className="about--texts">
