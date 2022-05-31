@@ -78,8 +78,8 @@ const HeroSection = styled(StyledSection)`
 
 
         .hero--img {
+            max-height: auto;
             max-width: 300px;
-            height: auto;
         }
 
     }
