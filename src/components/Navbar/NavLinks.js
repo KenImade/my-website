@@ -20,7 +20,7 @@ function NavLinks(props) {
             </Link>
             <Link 
                 className="nav--link" 
-                to="/projects"
+                to="/portfolio"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
             >
                 Portfolio
