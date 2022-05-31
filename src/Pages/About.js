@@ -113,6 +113,14 @@ const AboutSection = styled.section`
             h2, p {
                 margin: 10px;
             }
+
+            h2 {
+                font-size: 1.4rem;
+            }
+
+            p {
+                font-size: 1.2rem;
+            }
         }
         
     }
@@ -255,6 +263,7 @@ const ProfileSection = styled(StyledSection)`
             line-height: 25px;
             text-align: left;
             color: var(--secondary-color);
+            font-size: 1.2rem;
         }
     }
 
@@ -272,6 +281,7 @@ const ProfileSection = styled(StyledSection)`
 
         h3 {
             color: var(--secondary-color);
+            font-size: 1.1rem;
         }
 
         a {
