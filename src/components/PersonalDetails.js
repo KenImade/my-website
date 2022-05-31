@@ -42,7 +42,7 @@ const PersonalDetailsSection = styled(StyledSection)`
 
     @media(max-width: 780px) {
         .personal-details--text {
-            font-size: 4vw;
+            font-size: 1.2rem;
             text-align: left;
             line-height: 18px;
         }
