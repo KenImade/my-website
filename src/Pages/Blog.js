@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-// import BlogLink from "./Utils/BlogLink";
 
 const BlogSection = styled.section`
     background-color: #251D3A;
