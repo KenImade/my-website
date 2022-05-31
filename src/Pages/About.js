@@ -330,7 +330,7 @@ function About() {
 
     return (
         <>
-            <Banner text="ABOUT ME"/>
+            <Banner text="About Me"/>
             <AboutSection>
                 <ProfileSection>
                     <div className="intro">
