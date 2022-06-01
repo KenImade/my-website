@@ -1,9 +1,7 @@
 import styled from "styled-components";
 import Banner from "../components/Utils/Banner";
-// import StyledSection from "../components/Utils/StyledSection";
 
 const BlogSection = styled.section`
-    ${'' /* background-color: #251D3A; */}
     display: flex;
     flex-direction: column;
     align-items: center;
