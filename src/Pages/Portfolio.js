@@ -28,8 +28,9 @@ const PortfolioSection = styled.section`
         margin: 30px 0;
 
         .project-img {
-            width: 200px;
+            width: 150px;
             height: auto;
+            border-radius: 50%;
         }
 
         .project-info {
