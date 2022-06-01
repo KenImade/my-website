@@ -10,7 +10,7 @@ const StyledBanner = styled.div`
     background-color: var(--hover-color);
     width: 100%;
     margin-top: 85px;
-    height: 300px;
+    height: 250px;
 
     @media(max-width: 780px) {
        height: 180px; 
