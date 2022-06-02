@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Banner from "../components/Utils/Banner";
+import StyledLink from "../components/Utils/Link";
 import gitImg from "../images/git.jpg";
 import StyledSection from "./../components/Utils/StyledSection";
 import {SiDatabricks} from "react-icons/si";
@@ -49,6 +50,11 @@ const PortfolioSection = styled.section`
                 margin: 10px 0px;
                 color: var(--secondary-color);
             }
+        }
+
+        .project-links {
+            display: flex;
+            margin-top: 20px;
         }
     }
 
@@ -120,7 +126,11 @@ function Portfolio() {
                                     (I didn't want to forget the instance was running and lose money)
                                 </p>
                                 <p>Kenneth Imade on May 31, 2022</p>
+                                <div className="project-links">
+                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                                </div>
                             </div>
+                            
                         </div>
 
                         <div className="project-card">
