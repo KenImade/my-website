@@ -55,6 +55,7 @@ const PortfolioSection = styled.section`
         .project-links {
             display: flex;
             margin-top: 20px;
+            gap: 0.5rem;
         }
     }
 
@@ -70,6 +71,12 @@ const PortfolioSection = styled.section`
             .project-info {
                p, .project-title {
                    text-align: center;
+               }
+
+               .project-links {
+                   display: flex;
+                   align-items: center;
+                   justify-content: center;
                }
             }
         }
@@ -127,6 +134,8 @@ function Portfolio() {
                                 </p>
                                 <p>Kenneth Imade on May 31, 2022</p>
                                 <div className="project-links">
+                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
                                     <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
                                 </div>
                             </div>
