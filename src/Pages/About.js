@@ -2,7 +2,7 @@ import profileImg from "./../images/headshot.jpg";
 import styled from "styled-components";
 import Banner from "../components/Utils/Banner";
 import StyledSection from "../components/Utils/StyledSection"
-// import {AiOutlineMinus, AiOutlinePlus} from "react-icons/ai";
+import FadeIn from "../components/Utils/FadeIn";
 
 
 const AboutSection = styled.section`
@@ -44,6 +44,7 @@ const AboutSection = styled.section`
             bottom: 0;
             left: 50%;
             margin-left: -3px;
+            z-index: -999;
         }
 
         .container {
@@ -58,7 +59,7 @@ const AboutSection = styled.section`
             position: absolute;
             width: 25px;
             height: 25px;
-            right: -17px;
+            right: -12px;
             background-color: var(--background-color);
             border: 4px solid #FF9F55;
             top: 15px;
@@ -101,7 +102,7 @@ const AboutSection = styled.section`
         }
 
         .right::after {
-            left: -16px;
+            left: -12px;
         }
 
         .content {
@@ -332,6 +333,7 @@ function About() {
         <>
             <Banner text="About Me"/>
             <AboutSection>
+                <FadeIn>
                 <ProfileSection>
                     <div className="intro">
                         <img src={profileImg} alt="kenneth" className="about--img"/>
@@ -353,9 +355,12 @@ function About() {
                         </p>
                     </div>
                 </ProfileSection>
+                </FadeIn>
+                <FadeIn>
                 <div className="experience-section">
                     <h3 className="experience-section-title">MY EXPERIENCE</h3>
                     <div class="timeline">
+                        <FadeIn>
                         <div class="container left">
                             <div class="content">
                                 <h2>Bachelor in Mechancial Engineering</h2>
@@ -363,73 +368,81 @@ function About() {
                                 <p>GPA: 3.50 (On a scale of 4.0)</p>
                             </div>
                         </div>
-                        <div class="container right">
-                            <div class="content">
-                                <h2>Junior Machine Learning Engineer</h2>
-                                <p>Omdena</p>
-                                <p>June 2021 - August 2021</p>
+                        </FadeIn>
+                        <FadeIn>
+                            <div class="container right">
+                                <div class="content">
+                                    <h2>Junior Machine Learning Engineer</h2>
+                                    <p>Omdena</p>
+                                    <p>June 2021 - August 2021</p>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div class="container left">
-                        <div class="content">
-                            <h2>QA Analyst</h2>
-                            <p>Verraki Africa</p>
-                            <p>July 2021 - Present</p>
-                        </div>
+                        </FadeIn>
+                        <FadeIn>
+                            <div class="container left">
+                                <div class="content">
+                                    <h2>QA Analyst</h2>
+                                    <p>Verraki Africa</p>
+                                    <p>July 2021 - Present</p>
+                                </div>
+                            </div>
+                        </FadeIn>
                     </div>
                 </div>
+                </FadeIn>
                 <br id="faq"/>
-                <div className="faq-section">
-                   
-                    <h3 className="faq-section-title" >Any Questions?</h3>
-                    <div className="accordion">
-                        <div className="accordion-item" id="question1">
-                            <a className="accordion-link" href="#question1">
-                                How long have you been programming?
-                            </a>
-                            <div className="answer">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                    Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
-                                </p>
+                <FadeIn>
+                    <div className="faq-section">
+                    
+                        <h3 className="faq-section-title" >Any Questions?</h3>
+                        <div className="accordion">
+                            <div className="accordion-item" id="question1">
+                                <a className="accordion-link" href="#question1">
+                                    How long have you been programming?
+                                </a>
+                                <div className="answer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
+                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="accordion-item" id="question2">
-                            <a className="accordion-link" href="#question2">
-                                How long have you been programming?
-                            </a>
-                            <div className="answer">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                    Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
-                                </p>
+                            <div className="accordion-item" id="question2">
+                                <a className="accordion-link" href="#question2">
+                                    How long have you been programming?
+                                </a>
+                                <div className="answer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
+                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="accordion-item" id="question3">
-                            <a className="accordion-link" href="#question3">
-                                How long have you been programming?
-                            </a>
-                            <div className="answer">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                    Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
-                                </p>
+                            <div className="accordion-item" id="question3">
+                                <a className="accordion-link" href="#question3">
+                                    How long have you been programming?
+                                </a>
+                                <div className="answer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
+                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                    </p>
+                                </div>
                             </div>
-                        </div>
-                        <div className="accordion-item" id="question4">
-                            <a className="accordion-link" href="#question4">
-                                How long have you been programming?
-                            </a>
-                            <div className="answer">
-                                <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                    Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
-                                </p>
+                            <div className="accordion-item" id="question4">
+                                <a className="accordion-link" href="#question4">
+                                    How long have you been programming?
+                                </a>
+                                <div className="answer">
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
+                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </FadeIn>
             </AboutSection>
         </>
     )

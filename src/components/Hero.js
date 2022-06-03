@@ -2,6 +2,7 @@ import heroImg from "../images/headshot.jpg";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
+import FadeIn from "./Utils/FadeIn";
 
 const HeroSection = styled(StyledSection)`
     display: flex;
@@ -10,6 +11,18 @@ const HeroSection = styled(StyledSection)`
     justify-content: space-around;
     position: relative;
     margin-top: 85px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+
+    @keyframes fadeInAnimation {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 
     .left--hero--section {
         display: flex;
@@ -88,24 +101,26 @@ const HeroSection = styled(StyledSection)`
 function Hero() {
 
     return (
-        <HeroSection>
-            <section className="left--hero--section">
-                <div className="hero--text">
-                    <h2 className="hero--text--welcome">I am</h2>
-                    <h1 className="hero--text--name">Kenneth Imade.</h1>
-                    <h2 className="hero--text--value">I solve problems using code.</h2>
-                </div>
-                <div>
-                    <Link
-                        to="/portfolio"
-                        className="hero--link"
-                    >
-                        MY PROJECTS
-                    </Link>
-                </div>
-            </section>
-            <img src={heroImg} alt="website under construction" className="hero--img"/>
-        </HeroSection>
+        <FadeIn>
+            <HeroSection>
+                <section className="left--hero--section">
+                    <div className="hero--text">
+                        <h2 className="hero--text--welcome">I am</h2>
+                        <h1 className="hero--text--name">Kenneth Imade.</h1>
+                        <h2 className="hero--text--value">I solve problems using code.</h2>
+                    </div>
+                    <div>
+                        <Link
+                            to="/portfolio"
+                            className="hero--link"
+                        >
+                            MY PROJECTS
+                        </Link>
+                    </div>
+                </section>
+                <img src={heroImg} alt="website under construction" className="hero--img"/>
+            </HeroSection>
+        </FadeIn>
     )
 }
 

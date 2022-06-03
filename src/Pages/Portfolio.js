@@ -6,6 +6,7 @@ import StyledSection from "./../components/Utils/StyledSection";
 import {SiDatabricks} from "react-icons/si";
 import {GrCloudComputer} from "react-icons/gr";
 import {BsFileCode} from "react-icons/bs";
+import FadeIn from "../components/Utils/FadeIn";
 
 const PortfolioSection = styled.section`
     display: flex;
@@ -116,117 +117,120 @@ function Portfolio() {
         <>
             <Banner text="Portfolio" />
             <PortfolioSection>
-                <ProjectStyledSection>
-                    <div className="project-section-title-info">
-                        <SiDatabricks size="30px" /> 
-                        <h1 className="project-section-title">Data Engineering</h1>
-                    </div>
-                    <div className="project-list">
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
-                                <div className="project-links">
-                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
-                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
-                                    <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                <FadeIn>
+                    <ProjectStyledSection>
+                        <div className="project-section-title-info">
+                            <SiDatabricks size="30px" />
+                            <h1 className="project-section-title">Data Engineering</h1>
+                        </div>
+                        <div className="project-list">
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
+                                    <div className="project-links">
+                                        <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                                        <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                                        <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
+                                    </div>
+                                </div>
+                    
+                            </div>
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
                                 </div>
                             </div>
-                            
                         </div>
-
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
+                    </ProjectStyledSection>
+                </FadeIn>
+                <FadeIn>
+                    <ProjectStyledSection>
+                        <div className="project-section-title-info">
+                            <GrCloudComputer size="30px" />
+                            <h1 className="project-section-title">Cloud Computing</h1>
+                        </div>
+                        <div className="project-list">
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
+                                </div>
+                            </div>
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </ProjectStyledSection>
-                <ProjectStyledSection>
-                    <div className="project-section-title-info">
-                        <GrCloudComputer size="30px" /> 
-                        <h1 className="project-section-title">Cloud Computing</h1>
-                    </div>
-                    <div className="project-list">
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
+                    </ProjectStyledSection>
+                </FadeIn>
+                <FadeIn>
+                    <ProjectStyledSection>
+                        <div className="project-section-title-info">
+                            <BsFileCode size="30px" />
+                            <h1 className="project-section-title">Programming</h1>
+                        </div>
+                        <div className="project-list">
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
+                                </div>
+                            </div>
+                            <div className="project-card">
+                                <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
+                                <div className="project-info">
+                                    <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
+                                        Predicting the Price of Used Cars in Nigeria</a>
+                                    </h3>
+                                    <p>
+                                        A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
+                                        (I didn't want to forget the instance was running and lose money)
+                                    </p>
+                                    <p>Kenneth Imade on May 31, 2022</p>
+                                </div>
                             </div>
                         </div>
-
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
-                            </div>
-                        </div>
-                    </div>
-                </ProjectStyledSection>
-                <ProjectStyledSection>
-                    <div className="project-section-title-info">
-                        <BsFileCode size="30px" />  
-                        <h1 className="project-section-title">Programming</h1>
-                    </div>
-                    <div className="project-list">
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
-                            </div>
-                        </div>
-
-                        <div className="project-card">
-                            <a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"><img src={gitImg} alt="git" className="project-img"/></a>
-                            <div className="project-info">
-                                <h3 className="project-title"><a href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                                    Predicting the Price of Used Cars in Nigeria</a>
-                                </h3>
-                                <p>
-                                    A helpful tutorial I wrote recently on how to set up a Bash script that utilized the AWS CLI to start, log into, then shutdown an EC2 instance.
-                                    (I didn't want to forget the instance was running and lose money)
-                                </p>
-                                <p>Kenneth Imade on May 31, 2022</p>
-                            </div>
-                        </div>
-                    </div>
-                </ProjectStyledSection>
+                    </ProjectStyledSection>
+                </FadeIn>
             </PortfolioSection>
         </>
     )

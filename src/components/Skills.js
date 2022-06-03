@@ -3,6 +3,7 @@ import StyledSection from "./Utils/StyledSection";
 import {DiPython, DiJava, DiLinux} from "react-icons/di";
 import {AiOutlineConsoleSql} from "react-icons/ai";
 import {SiJavascript} from "react-icons/si";
+import FadeIn from "./Utils/FadeIn";
 
 
 const SkillSection = styled(StyledSection)`
@@ -48,6 +49,7 @@ const SkillSection = styled(StyledSection)`
 function Skills () {
 
     return (
+        <FadeIn>
         <SkillSection>
             <h2 className="skills--title">Skills Expertise</h2>
             <div className="skills--list">
@@ -73,6 +75,7 @@ function Skills () {
                 </div>
             </div>
         </SkillSection>
+        </FadeIn>
     )
 }
 

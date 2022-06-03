@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
 import projImg1 from "./../images/website-snip.jpg";
+import FadeIn from "./Utils/FadeIn";
 
 const ProjectSection = styled(StyledSection)`
     .projects--title {
@@ -74,6 +75,7 @@ const ProjectSection = styled(StyledSection)`
 function Projects() {
 
     return (
+        <FadeIn>
         <ProjectSection>
             <h2 className="projects--title">Latest Projects</h2>
             <p className="projects--sub-title">Take a look at my recent projects.</p>
@@ -122,6 +124,7 @@ function Projects() {
                 </div>
             </div>
         </ProjectSection>
+        </FadeIn>
     )
 }
 

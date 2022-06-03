@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import Banner from "../components/Utils/Banner";
+import FadeIn from "../components/Utils/FadeIn";
 
 const BlogSection = styled.section`
     display: flex;
@@ -11,6 +12,8 @@ const BlogSection = styled.section`
     padding: 30px;
 
     .post-section {
+        margin-bottom: 50px;
+
         .post-section-title {
             font-size: 1.8rem;
         }
@@ -75,15 +78,75 @@ function Blog(props) {
         <>
             <Banner text="Blog" />
             <BlogSection>
-                <div class="post-section">
-                    <h2 className="post-section-title">Programming</h2>
-                    <div className="post">
-                        <a href="https://www.google.com">
-                            <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
-                            <sub>1 June 2022</sub>
-                        </a>
+                <FadeIn>
+                    <div class="post-section">
+                        <h2 className="post-section-title">Programming</h2>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
                     </div>
-                </div>
+                </FadeIn>
+                <FadeIn>
+                    <div class="post-section">
+                        <h2 className="post-section-title">Programming</h2>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                    </div>
+                </FadeIn>
+                <FadeIn>
+                    <div class="post-section">
+                        <h2 className="post-section-title">Programming</h2>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                        <div className="post">
+                            <a href="https://www.google.com">
+                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
+                                <sub>1 June 2022</sub>
+                            </a>
+                        </div>
+                    </div>
+                </FadeIn>
             </BlogSection>
         </>
     )

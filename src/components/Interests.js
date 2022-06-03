@@ -3,6 +3,7 @@ import StyledSection from "./Utils/StyledSection";
 import {AiOutlineCloud} from "react-icons/ai";
 import {FiDatabase} from "react-icons/fi";
 import {MdOutlineWebAsset} from "react-icons/md";
+import FadeIn from "./Utils/FadeIn";
 
 const InterestsSection = styled(StyledSection)`
     .interests--title {
@@ -56,30 +57,32 @@ const InterestsSection = styled(StyledSection)`
 function Interests() {
 
     return (
-        <InterestsSection>
-            <h2 className="interests--title">Areas of Interests</h2>
-            <p className="interests--sub-title">Take a look at some of the things I'm working on</p>
+        <FadeIn>
+            <InterestsSection>
+                <h2 className="interests--title">Areas of Interests</h2>
+                <p className="interests--sub-title">Take a look at some of the things I'm working on</p>
 
-            <div className="interests-list">
-                <div className="interest-card">
-                    <AiOutlineCloud size="50px"/>
-                    <h3>Cloud Computing</h3>
-                    <p>I utilize AWS to develop and productionize machine learning systems.</p>
-                </div>
+                <div className="interests-list">
+                    <div className="interest-card">
+                        <AiOutlineCloud size="50px"/>
+                        <h3>Cloud Computing</h3>
+                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                    </div>
 
-                <div className="interest-card">
-                    <FiDatabase size="50px"/>
-                    <h3>Data Engineering</h3>
-                    <p>I utilize AWS to develop and productionize machine learning systems.</p>
-                </div>
+                    <div className="interest-card">
+                        <FiDatabase size="50px"/>
+                        <h3>Data Engineering</h3>
+                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                    </div>
 
-                <div className="interest-card">
-                    <MdOutlineWebAsset size="50px"/>
-                    <h3>Web Development</h3>
-                    <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                    <div className="interest-card">
+                        <MdOutlineWebAsset size="50px"/>
+                        <h3>Web Development</h3>
+                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                    </div>
                 </div>
-            </div>
-        </InterestsSection>
+            </InterestsSection>
+        </FadeIn>
     )
 }
 
