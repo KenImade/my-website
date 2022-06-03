@@ -2,13 +2,13 @@ import React, {useState, useEffect} from "react";
 
 
 function FadeIn(props) {
-    const [isVisible, setVisible] = useState(true);
+    const [isVisible, setVisible] = useState(false);
 
     const domRef = React.useRef();
 
     useEffect(() => {
         const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => setVisible(entry.isIntersecting));
+            entries.forEach(entry => (entry.isIntersecting && setVisible(true)));
         });
 
         const {current}  = domRef;
