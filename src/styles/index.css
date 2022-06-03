@@ -9,7 +9,6 @@
   box-sizing: border-box;
   font-family: 'Ubuntu', sans-serif;
   font-size: 15px;
-  /* line-height: 24px; */
 }
 
 *::before,
@@ -79,7 +78,6 @@ button:hover {
 }
 
 svg:hover {
-  size: 6rem;
   color: var(--hover-color);
 }
 
