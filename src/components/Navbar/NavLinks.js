@@ -32,6 +32,15 @@ function NavLinks(props) {
             >
                 Blog
             </Link>
+
+            <a 
+                href="https://drive.google.com/file/d/1kGrbaAUOwzSZwM0IUgincA7dmyjabq2m/view?usp=sharing" 
+                target="_blank"
+                rel="noreferrer"
+                className="nav--link"
+            >
+                Resume
+            </a>
         </div>
     )
 }
