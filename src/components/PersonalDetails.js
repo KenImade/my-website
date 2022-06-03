@@ -58,15 +58,14 @@ function PersonalDetails() {
                 <h2 className="personal-details--title">PERSONAL DETAILS</h2>
                 <div className="personal-details--text--div">
                     <p className="personal-details--text">
-                        A few interesting things about me. I love to read science fiction (my favorite is Frank Herbert's Dune).
-                        I am also an avid gamer. I love to play competitive strategy games and first-person shooters.
-                        Lastly, I love learning. Every day I push myself to learn something new, whether that be about machine learning, software engineering,
-                        or miscellaneous facts about the universe.
+                        A few interesting things about me. I love to read (my favorite is Paulo Coelho's The Alchemist).
+                        I am also an avid football fan (Glory! Manchester United 🙌). Nothing beats a weekend with a good football match on air.
+                        Lastly, I love learning. Every day I push myself to learn something new, whether that be about data engineering, software engineering,
+                        or things that I think are pretty cool.
                     </p>
                     <p className="personal-details--text">
-                        On top of recently getting married and graduating with a masters in computer science from UT Dallas,
-                        I also recently started working as a senior data scientist at Capital One. My work mainly revolves
-                        around utilizing natural language processing to build a more intelligent customer experience.
+                        Currently, I work as a technology solutions intern at a consulting firm based in Lagos, Nigeria.
+                        My work mainly revolves around utilizing software to solve the problems that our client's business might be facing.
                     </p>
                 </div>
                 <Link

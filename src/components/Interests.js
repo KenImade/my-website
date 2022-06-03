@@ -66,19 +66,22 @@ function Interests() {
                     <div className="interest-card">
                         <AiOutlineCloud size="50px"/>
                         <h3>Cloud Computing</h3>
-                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                        <p>I am interested in how I can utilize the cloud to increase productivity and reduce cost for various businesses.</p>
                     </div>
 
                     <div className="interest-card">
                         <FiDatabase size="50px"/>
                         <h3>Data Engineering</h3>
-                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                        <p>
+                            With the ever increasing data available in the world, harnessing that in driving better decision's in society 
+                            is of particular interest to me.
+                        </p>
                     </div>
 
                     <div className="interest-card">
                         <MdOutlineWebAsset size="50px"/>
-                        <h3>Web Development</h3>
-                        <p>I utilize AWS to develop and productionize machine learning systems.</p>
+                        <h3>Software Development</h3>
+                        <p>Being a part of creating programs that makes the lives of people easier and more productive is always a captivating experience for me.</p>
                     </div>
                 </div>
             </InterestsSection>
