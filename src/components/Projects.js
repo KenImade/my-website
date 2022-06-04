@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
 import projImg1 from "./../images/website-snip.jpg";
+import cloudImg from "./../images/cloud.jpg";
 import FadeIn from "./Utils/FadeIn";
 
 const ProjectSection = styled(StyledSection)`
@@ -82,16 +83,16 @@ function Projects() {
             <div className="projects--list">
                 <div className="project--card">
                     <a target="_blank" rel="noreferrer" href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria">
-                        <img src={projImg1} alt="project-title"/>
+                        <img src={cloudImg} alt="project-title"/>
                     </a>
                     <hr/>
                     <a className="project--card--title"
                         href="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"
                     >
-                        Predicting the Price of Used Cars in Nigeria
+                        Deploying a static website to the cloud
                     </a>
                     <p className="project--card--desc">
-                        This aim of this project is to use data gotten from the Cars45 website to predict the price of a used car in Nigeria
+                        Utilized AWS resources, S3 bucket and Cloudfront to deploy a static website to the cloud.
                     </p>
                 </div>
                 <div className="project--card">
