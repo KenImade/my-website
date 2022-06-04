@@ -43,6 +43,8 @@ const ProjectSection = styled(StyledSection)`
         color: var(--headers-color);
         font-size: 1.4em;
         text-align: center;
+        height: 40px;
+        margin: 10px 0px;
     }
 
     .project--card--title:hover {
