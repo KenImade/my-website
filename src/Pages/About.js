@@ -349,9 +349,7 @@ function About() {
                                 and what I am learning right now.
                         </p>
                         <p className="about--text">
-                            I am a solution-oriented team player with a recognized aptitude for innovative thinking.
-                            I am enthusiastic, responsible, and hardworking. Having worked on different projects, it has helped me to adapt to changes quickly and made me a mature team worker.
-                            I can work well both in a team environment and as well as using my own initiative.
+                            
                         </p>
                     </div>
                 </ProfileSection>
@@ -363,27 +361,46 @@ function About() {
                         <FadeIn>
                         <div class="container left">
                             <div class="content">
-                                <h2>Bachelor in Mechancial Engineering</h2>
-                                <p>Covenant University December 2020</p>
-                                <p>GPA: 3.50 (On a scale of 4.0)</p>
+                                <a 
+                                    href="https://www.covenantuniversity.edu.ng"
+                                    target="_blank" rel="noreferrer"
+                                >
+                                    <h2>Bachelor in Mechancial Engineering</h2>
+                                    <p>Covenant University December 2020</p>
+                                    <p>GPA: 3.50 (On a scale of 4.0)</p>
+                                </a>
                             </div>
                         </div>
                         </FadeIn>
                         <FadeIn>
                             <div class="container right">
                                 <div class="content">
-                                    <h2>Junior Machine Learning Engineer</h2>
-                                    <p>Omdena</p>
-                                    <p>June 2021 - August 2021</p>
+                                    <a 
+                                        href="https://www.omdena.com"
+                                        target="_blank" rel="noreferrer"
+                                    >
+                                        <h2>Junior Machine Learning Engineer</h2>
+                                        <p>Omdena</p>
+                                        <p>June 2021 - August 2021</p>
+                                    </a>
                                 </div>
                             </div>
                         </FadeIn>
                         <FadeIn>
                             <div class="container left">
                                 <div class="content">
-                                    <h2>QA Analyst</h2>
-                                    <p>Verraki Africa</p>
-                                    <p>July 2021 - Present</p>
+                                    <a 
+                                        href="https://www.verraki.africa" 
+                                        target="_blank" rel="noreferrer"
+                                    >
+                                        <h2>Technology Solutions Intern</h2>
+                                        <p>
+                                            
+                                                Verraki Africa
+                                            
+                                        </p>
+                                        <p>July 2021 - Present</p>
+                                    </a>
                                 </div>
                             </div>
                         </FadeIn>
