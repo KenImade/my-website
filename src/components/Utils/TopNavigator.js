@@ -1,5 +1,5 @@
 import { useState } from "react";
-import {AiOutlineArrowUp} from "react-icons/ai"
+import {BiUpArrow} from "react-icons/bi"
 import styled from "styled-components";
 
 
@@ -7,7 +7,7 @@ function TopNavigator() {
 
     const [visible, setVisible] = useState(true);
 
-    const TopNavigationButton = styled.button`
+    const TopNavigationButton = styled.div`
         display: ${visible ? "flex" : "none"};
         align-items: center;
         justify-content: center;
@@ -19,14 +19,16 @@ function TopNavigator() {
         z-index: 99;
         border: none;
         outline: none;
+        border-radius: 5px;
         background-color: var(--hover-color);
         color: white;
         cursor: pointer;
-        padding: 15px;
         font-size: 18px;
+        opacity: 0.5;
 
         :hover {
             background-color: var(--headers-color);
+            opacity: 1;
         }
     `
 
@@ -52,7 +54,7 @@ function TopNavigator() {
 
     return (
         <TopNavigationButton onClick={scrollToTop}>
-            <AiOutlineArrowUp size="40px" />
+            <BiUpArrow size="30px" />
         </TopNavigationButton>
     )
 }
