@@ -1,26 +1,26 @@
-import './App.css';
-import About from './components/About';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Jobs from './components/Jobs';
+import './styles/index.css';
+import { Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Projects from './components/Projects';
-import Blog from './components/Blog';
-import TopNavigator from './components/Utils/TopNavigator';
+import Footer from './components/Footer';
+import Home from './Pages/Home';
+import Portfolio from './Pages/Portfolio';
+import Blog from './Pages/Blog';
+import About from "./Pages/About"
+import TopNavigator from "./components/Utils/TopNavigator";
 
 function App() {
+
   return (
     <>
       <Navbar />
-      <Hero />
-      <About />
-      <Jobs />
-      <Projects />
-      <Blog />
-      <Contact />
-      <Footer />
       <TopNavigator />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="about" element={<About />} />
+        <Route path="portfolio" element={<Portfolio />} />
+        <Route path="blog" element={<Blog />}/>
+      </Routes>
+      <Footer />
     </>
   );
 }
