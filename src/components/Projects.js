@@ -35,13 +35,13 @@ const ProjectSection = styled(StyledSection)`
     }
 
     .project--card img {
-        width: auto;
+        width: 300px;
         height: 200px;
     }
 
     .project--card--title {
         color: var(--headers-color);
-        font-size: 1.4em;
+        font-size: 1.2rem;
         text-align: center;
         height: 40px;
         margin: 10px 0px;
