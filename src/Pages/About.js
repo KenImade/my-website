@@ -427,12 +427,13 @@ function About() {
                         <div className="accordion">
                             <div className="accordion-item" id="question1">
                                 <a className="accordion-link" href="#question1">
-                                    How long have you been programming?
+                                    Why did you create this website?
                                 </a>
                                 <div className="answer">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                        The main reason I created this website was to expand my knowledge in the software engineering space and
+                                        also because of my job. At my current job we are constantly encouraged to learn something new and that 
+                                        spurred me to take on a course in web development.
                                     </p>
                                 </div>
                             </div>
