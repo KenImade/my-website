@@ -80,28 +80,20 @@ function Blog(props) {
             <BlogSection>
                 <FadeIn>
                     <div class="post-section">
-                        <h2 className="post-section-title">Programming</h2>
+                        <h2 className="post-section-title">Cloud Computing</h2>
                         <div className="post">
-                            <a href="https://www.google.com">
-                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
-                                <sub>1 June 2022</sub>
-                            </a>
-                        </div>
-                        <div className="post">
-                            <a href="https://www.google.com">
-                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
-                                <sub>1 June 2022</sub>
-                            </a>
-                        </div>
-                        <div className="post">
-                            <a href="https://www.google.com">
-                                <h3 className="post-title">The Temporal Dead Zone in JavaScript</h3>
-                                <sub>1 June 2022</sub>
+                            <a 
+                                href="https://medium.com/@kenimade91/how-to-deploy-a-static-website-to-the-cloud-using-amazon-s3-bucket-and-cloudfront-23db00572199"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <h3 className="post-title">Deploying a Static Website to the Cloud</h3>
+                                <sub>5 June 2022</sub>
                             </a>
                         </div>
                     </div>
                 </FadeIn>
-                <FadeIn>
+                {/* <FadeIn>
                     <div class="post-section">
                         <h2 className="post-section-title">Programming</h2>
                         <div className="post">
@@ -123,8 +115,8 @@ function Blog(props) {
                             </a>
                         </div>
                     </div>
-                </FadeIn>
-                <FadeIn>
+                </FadeIn> */}
+                {/* <FadeIn>
                     <div class="post-section">
                         <h2 className="post-section-title">Programming</h2>
                         <div className="post">
@@ -146,7 +138,7 @@ function Blog(props) {
                             </a>
                         </div>
                     </div>
-                </FadeIn>
+                </FadeIn> */}
             </BlogSection>
         </>
     )
