@@ -140,7 +140,7 @@ function Portfolio() {
                                             Predicting the Price of Used Cars in Nigeria</a>
                                         </h3>
                                         <p>
-                                            This aim of this project is to use data gotten from the Cars45 website to predict the price of a used car in Nigeria
+                                            This aim of this project was to use data gotten from the Cars45 website to predict the price of a used car in Nigeria
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
