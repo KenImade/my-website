@@ -39,7 +39,7 @@ function NavLinks(props) {
                 rel="noreferrer"
                 className="nav--link"
             >
-                Resume
+                Résumé
             </a>
         </div>
     )

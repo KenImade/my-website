@@ -60,12 +60,14 @@ function PersonalDetails() {
                     <p className="personal-details--text">
                         A few interesting things about me. I love to read (my favorite is Paulo Coelho's The Alchemist),
                         I am also an avid football fan (Glory! Manchester United 🙌). Nothing beats a weekend with a good football match on air.
-                        Lastly, I love learning. Every day I push myself to learn something new, whether that be about data engineering, software engineering,
-                        or things that I think are pretty cool.
                     </p>
                     <p className="personal-details--text">
                         Currently, I work as a technology solutions intern at a consulting firm based in Lagos, Nigeria.
                         My work mainly revolves around utilizing software to solve the problems that our client's business needs.
+                    </p>
+                    <p className="personal-details--text">
+                        Lastly, I love learning. Every day I push myself to learn something new, whether that be about data engineering, software engineering,
+                        or things that I think are pretty cool.
                     </p>
                 </div>
                 <Link

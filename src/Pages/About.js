@@ -260,11 +260,16 @@ const ProfileSection = styled(StyledSection)`
     .about--texts {
         margin-top: 30px;
 
+        h3 {
+            font-size: 1.4rem;
+        }
+
         .about--text {
             line-height: 25px;
             text-align: left;
             color: var(--secondary-color);
             font-size: 1.2rem;
+            margin-bottom: 5px;
         }
     }
 
@@ -343,15 +348,22 @@ function About() {
                             <div><a href="#faq">About Me</a></div>
                         </div>
                     </div>
-                    <div className="about--texts">
-                        <p className="about--text">
-                                Hey there, I'm Kenneth and I created this website to write and share what I've worked on
-                                and what I am learning right now.
-                        </p>
-                        <p className="about--text">
-                            
-                        </p>
-                    </div>
+                    <FadeIn>
+                        <div className="about--texts">
+                            <h3>My Journey So Far...</h3>
+                            <p className="about--text">
+                                During my undergraduate internship I worked at Chevron's office in Lagos Nigeria, I worked in a department that
+                                dealt with optimizing the processes used in company projects. One of my projects was to gather data on oil wells
+                                this would be used in the creation of a Microsoft PowerBI dashboard which would aid in tracking the performance of
+                                oil wells owned by the company. This singular experience sparked my interest into the world of analytics.
+                            </p>
+                            <p className="about--text">
+                                After graudating, I decided to take the IBM Data Analytics program offered on Coursera. With that knowledge I volunteered
+                                at Omdena on a machine learning project. Currently, I now work as a Technology Solutions Intern with a consulting firm based
+                                in Lagos and continue to get exposed to more aspects of software development.
+                            </p>
+                        </div>
+                    </FadeIn>
                 </ProfileSection>
                 </FadeIn>
                 <FadeIn>
@@ -415,16 +427,17 @@ function About() {
                         <div className="accordion">
                             <div className="accordion-item" id="question1">
                                 <a className="accordion-link" href="#question1">
-                                    How long have you been programming?
+                                    Why did you create this website?
                                 </a>
                                 <div className="answer">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                        The main reason I created this website was to expand my knowledge in the software engineering space and
+                                        also because of my job. At my current job we are constantly encouraged to learn something new and that 
+                                        spurred me to take on a course in web development.
                                     </p>
                                 </div>
                             </div>
-                            <div className="accordion-item" id="question2">
+                            {/* <div className="accordion-item" id="question2">
                                 <a className="accordion-link" href="#question2">
                                     How long have you been programming?
                                 </a>
@@ -456,7 +469,7 @@ function About() {
                                         Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </FadeIn>
