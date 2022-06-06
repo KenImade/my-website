@@ -318,6 +318,12 @@ const ProfileSection = styled(StyledSection)`
             padding: 0;
         }
 
+        .about--texts {
+            h3 {
+                text-align: center;
+            }
+        }
+
         .about--texts .about--text {
             padding: 0.4rem 1.5rem;
             text-align: center;
