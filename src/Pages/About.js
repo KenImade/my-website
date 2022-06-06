@@ -437,7 +437,7 @@ function About() {
                                     </p>
                                 </div>
                             </div>
-                            <div className="accordion-item" id="question2">
+                            {/* <div className="accordion-item" id="question2">
                                 <a className="accordion-link" href="#question2">
                                     How long have you been programming?
                                 </a>
@@ -469,7 +469,7 @@ function About() {
                                         Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </FadeIn>
