@@ -7,6 +7,7 @@ import {FaReact, FaHtml5} from "react-icons/fa";
 import {FiGithub} from "react-icons/fi";
 import FadeIn from "./Utils/FadeIn";
 
+const ICON_SIZE = "60px";
 
 const SkillSection = styled(StyledSection)`
     .skills--title {
@@ -64,39 +65,39 @@ function Skills () {
             <p className="skills--sub-title">Some of the tools I work with</p>
             <div className="skills--list">
                 <div className="skill-card">
-                    <DiPython size="60px"/>
+                    <DiPython size={ICON_SIZE}/>
                     <h4 className="skill-title">Python</h4>
                 </div>
                 <div className="skill-card">
-                    <AiOutlineConsoleSql size="60px"/>
+                    <AiOutlineConsoleSql size={ICON_SIZE}/>
                     <h4 className="skill-title">SQL</h4>
                 </div>
                 <div className="skill-card">
-                    <DiJava size="60px"/>
+                    <DiJava size={ICON_SIZE}/>
                     <h4 className="skill-title">Java</h4>
                 </div>
                 <div className="skill-card">
-                    <SiJavascript size="60px"/>
+                    <SiJavascript size={ICON_SIZE}/>
                     <h4 className="skill-title">JavaScript</h4>
                 </div>
                 <div className="skill-card">
-                    <DiLinux size="60px"/>
+                    <DiLinux size={ICON_SIZE}/>
                     <h4 className="skill-title">Linux</h4>
                 </div>
                 <div className="skill-card">
-                    <FaReact size="60px"/>
+                    <FaReact size={ICON_SIZE}/>
                     <h4 className="skill-title">React</h4>
                 </div>
                 <div className="skill-card">
-                    <FiGithub size="60px"/>
+                    <FiGithub size={ICON_SIZE}/>
                     <h4 className="skill-title">GitHub</h4>
                 </div>
                 <div className="skill-card">
-                    <FaHtml5 size="60px"/>
+                    <FaHtml5 size={ICON_SIZE}/>
                     <h4 className="skill-title">HTML</h4>
                 </div>
                 <div className="skill-card">
-                    <DiCss3 size="60px"/>
+                    <DiCss3 size={ICON_SIZE}/>
                     <h4 className="skill-title">CSS</h4>
                 </div>
             </div>
