@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import {AiOutlineMail} from "react-icons/ai";
 import {FiLinkedin, FiGithub, FiTwitter} from "react-icons/fi";
+import {RiMediumLine} from "react-icons/ri";
 
 const StyledFooter = styled.footer`
     display: flex;
@@ -71,6 +72,7 @@ function Footer() {
                     <a href="https://www.linkedin.com/in/kenneth-imade/" className="contact--item" target="_blank" rel="noreferrer noopener"><FiLinkedin size="30px" /></a>
                     <a href="https://github.com/kenimade" className="contact--item" target="_blank" rel="noreferrer noopener"><FiGithub size="30px"/></a>
                     <a href="https://twitter.com/kenneth1made" className="contact--item" target="_blank" rel="noreferrer noopener"><FiTwitter size="30px"/></a>
+                    <a href="https://medium.com/@kenimade91" className="contact--item" target="_blank" rel="noreferrer noopener"><RiMediumLine size="30px"/></a>
                 </div>
             </div>
         </StyledFooter>

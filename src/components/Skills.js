@@ -1,8 +1,10 @@
 import styled from "styled-components";
 import StyledSection from "./Utils/StyledSection";
-import {DiPython, DiJava, DiLinux} from "react-icons/di";
+import {DiPython, DiJava, DiLinux, DiCss3} from "react-icons/di";
 import {AiOutlineConsoleSql} from "react-icons/ai";
 import {SiJavascript} from "react-icons/si";
+import {FaReact, FaHtml5} from "react-icons/fa";
+import {FiGithub} from "react-icons/fi";
 import FadeIn from "./Utils/FadeIn";
 
 
@@ -15,7 +17,7 @@ const SkillSection = styled(StyledSection)`
     .skills--list {
         display: grid;
         justify-items: center;
-        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         margin-top: 50px;
         gap: 1.2rem;
     }
@@ -44,6 +46,13 @@ const SkillSection = styled(StyledSection)`
         color: var(--secondary-color);
         margin-top: 10px;
     }
+
+    .skills--sub-title {
+        font-size: 1.1rem;
+        text-align: center;
+        margin-top: 15px;
+        font-weight: 300;
+    }
 `
 
 function Skills () {
@@ -51,7 +60,8 @@ function Skills () {
     return (
         <FadeIn>
         <SkillSection>
-            <h2 className="skills--title">Skills Expertise</h2>
+            <h2 className="skills--title">Tools</h2>
+            <p className="skills--sub-title">Some of the tools I work with</p>
             <div className="skills--list">
                 <div className="skill-card">
                     <DiPython size="60px"/>
@@ -72,6 +82,22 @@ function Skills () {
                 <div className="skill-card">
                     <DiLinux size="60px"/>
                     <h4 className="skill-title">Linux</h4>
+                </div>
+                <div className="skill-card">
+                    <FaReact size="60px"/>
+                    <h4 className="skill-title">React</h4>
+                </div>
+                <div className="skill-card">
+                    <FiGithub size="60px"/>
+                    <h4 className="skill-title">GitHub</h4>
+                </div>
+                <div className="skill-card">
+                    <FaHtml5 size="60px"/>
+                    <h4 className="skill-title">HTML</h4>
+                </div>
+                <div className="skill-card">
+                    <DiCss3 size="60px"/>
+                    <h4 className="skill-title">CSS</h4>
                 </div>
             </div>
         </SkillSection>
