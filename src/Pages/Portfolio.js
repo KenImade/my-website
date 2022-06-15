@@ -5,6 +5,7 @@ import gitImg from "../images/git.jpg";
 import StyledSection from "./../components/Utils/StyledSection";
 import {SiDatabricks} from "react-icons/si";
 // import {GrCloudComputer} from "react-icons/gr";
+import {GrPersonalComputer} from "react-icons/gr";
 import {BsFileCode} from "react-icons/bs";
 import FadeIn from "../components/Utils/FadeIn";
 
@@ -96,7 +97,6 @@ const ProjectStyledSection = styled(StyledSection)`
     .project-section-title {
         font-size: 1.6rem;
         text-align: center;
-        margin-bottom: 15px;
 
         svg {
             margin-left: 10px;
@@ -121,6 +121,29 @@ function Portfolio() {
             <PortfolioSection>
                 <FadeIn>
                     <ProjectStyledSection>
+                        <FadeIn>
+                            <div className="project-section-title-info">
+                                <GrPersonalComputer size="30px" />
+                                <h1 className="project-section-title">Frontend</h1>
+                            </div>
+                            <div className="project-list">
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/tailwind-landing-page"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/tailwind-landing-pagek">
+                                           Landing Page</a>
+                                        </h3>
+                                        <p>
+                                            A demo landing page built using tailwind css. Project was sourced from Frontend Masters
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/tailwind-landing-page" text="Github" />
+                                            <StyledLink link="https://kenneths-tailwind-landing-page.netlify.app" text="Website" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </FadeIn>
                         <FadeIn>
                             <div className="project-section-title-info">
                                 <SiDatabricks size="30px" />
