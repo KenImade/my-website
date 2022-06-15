@@ -75,7 +75,7 @@ const BlogSection = styled.section`
 `
 
 
-function Blog(props) {
+function Blog() {
 
     return (
         <>
@@ -100,7 +100,11 @@ function Blog(props) {
                     <div class="post-section">
                         <h2 className="post-section-title">Programming</h2>
                         <div className="post">
-                            <a href="https://medium.com/@kenimade91/the-reference-trap-da8237528f6b">
+                            <a 
+                                href="https://medium.com/@kenimade91/the-reference-trap-da8237528f6b"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
                                 <h3 className="post-title">The Reference Trap</h3>
                                 <sub>6 June 2022</sub>
                             </a>
