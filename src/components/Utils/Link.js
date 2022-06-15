@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 
 const StyledLink = styled.a`
-    width: 60px;
+    width: auto;
     text-align: center;
     background-color: var(--hover-color);
     color: var(--primary-color);
