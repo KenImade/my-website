@@ -22,7 +22,7 @@ const PersonalDetailsSection = styled(StyledSection)`
     }
 
     .personal-details--text {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         color: var(--secondary-color);
     }
 
@@ -43,7 +43,7 @@ const PersonalDetailsSection = styled(StyledSection)`
 
     @media(max-width: 780px) {
         .personal-details--text {
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             text-align: left;
             line-height: 18px;
         }
