@@ -136,6 +136,9 @@ function Portfolio() {
                                         <p>
                                             A demo landing page built using tailwind css. Project was sourced from Frontend Masters
                                         </p>
+                                        <p>
+                                            Tools: HTML, Tailwind CSS, JavaScript
+                                        </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/tailwind-landing-page" text="Github" />
                                             <StyledLink link="https://kenneths-tailwind-landing-page.netlify.app" text="Website" />
@@ -165,6 +168,9 @@ function Portfolio() {
                                         <p>
                                             This aim of this project was to use data gotten from the Cars45 website to predict the price of a used car in Nigeria
                                         </p>
+                                        <p>
+                                            Tools: Jupyter notebook, Python, Pandas, Numpy, BeautifulSoup, Seaborn, Matplotlib, Sklearn
+                                        </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
                                         </div>
@@ -180,6 +186,9 @@ function Portfolio() {
                                            Lead a team of six contributors to extract and clean datasets which were used in the
                                            training of the machine learing model that would be identifying populated areas with little
                                            or no electricity in Nigeria.
+                                        </p>
+                                        <p>
+                                            Tools: Jupyter notebook, Python, Pandas, Numpy, BeautifulSoup, Seaborn, Matplotlib, Sklearn
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/OmdenaAI/omdena-nigeria-energy" text="Github" />
@@ -202,6 +211,9 @@ function Portfolio() {
                                         </h3>
                                         <p>
                                             Built the popular blackjack card game to solidify my understanding of Java
+                                        </p>
+                                        <p>
+                                            Tools: Java
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/blackjack" text="Github" />
