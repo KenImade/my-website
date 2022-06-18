@@ -130,18 +130,36 @@ function Portfolio() {
                                 <div className="project-card">
                                     <a href="https://github.com/KenImade/tailwind-landing-page"><img src={gitImg} alt="git" className="project-img"/></a>
                                     <div className="project-info">
-                                        <h3 className="project-title"><a href="https://github.com/KenImade/tailwind-landing-pagek">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/tailwind-landing-page">
                                            Landing Page</a>
                                         </h3>
                                         <p>
-                                            A demo landing page built using tailwind css. Project was sourced from Frontend Masters
+                                            A demo landing page built using tailwind css. Project was sourced from Frontend Mentors
                                         </p>
                                         <p>
                                             Tools: HTML, Tailwind CSS, JavaScript
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/tailwind-landing-page" text="Github" />
-                                            <StyledLink link="https://kenneths-tailwind-landing-page.netlify.app" text="Website" />
+                                            <StyledLink link="https://kenneths-tailwind-landing-page.netlify.app" text="Live Site" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/interactive-rating-component"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/interactive-rating-component">
+                                           Landing Page</a>
+                                        </h3>
+                                        <p>
+                                            An interactive rating component. Project was sourced from Frontend Mentors
+                                        </p>
+                                        <p>
+                                            Tools: HTML, Tailwind CSS, JavaScript
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/interactive-rating-component" text="Github" />
+                                            <StyledLink link="https://kenneths-interactive-rating-component.netlify.app" text="Live Site" />
                                         </div>
                                     </div>
                                 </div>
