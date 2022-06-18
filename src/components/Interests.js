@@ -80,7 +80,7 @@ function Interests() {
 
                     <div className="interest-card">
                         <MdOutlineWebAsset size="50px"/>
-                        <h3>Software Development</h3>
+                        <h3>Web Development</h3>
                         <p>Being a part of creating programs that makes the lives of people easier and more productive is always a captivating experience for me.</p>
                     </div>
                 </div>
