@@ -62,7 +62,7 @@ function PersonalDetails() {
                         I am also an avid football fan (Glory! Manchester United 🙌). Nothing beats a weekend with a good football match on air.
                     </p>
                     <p className="personal-details--text">
-                        Currently, I work as a technology solutions intern at a consulting firm based in Lagos, Nigeria.
+                        Currently, I work as a Graduate Associate at a consulting firm based in Lagos, Nigeria.
                         My work mainly revolves around utilizing software to solve the problems that our client's business needs.
                     </p>
                     <p className="personal-details--text">
