@@ -58,12 +58,12 @@ function PersonalDetails() {
                 <h2 className="personal-details--title">PERSONAL DETAILS</h2>
                 <div className="personal-details--text--div">
                     <p className="personal-details--text">
-                        A few interesting things about me. I love to read (my favorite is Paulo Coelho's The Alchemist),
+                        Hi, I'm Kenneth a Software Engineer based in Lagos, Nigeria. A few interesting things about me. I love to read (my favorite is Paulo Coelho's The Alchemist),
                         I am also an avid football fan (Glory! Manchester United 🙌). Nothing beats a weekend with a good football match on air.
                     </p>
                     <p className="personal-details--text">
-                        Currently, I work as a Graduate Associate at a consulting firm based in Lagos, Nigeria.
-                        My work mainly revolves around utilizing software to solve the problems that our client's business needs.
+                        I currently work with a business consulting firm where we focus on building various software products for our clients. I currently focus on the testing and quality assurance
+                        of the applications we build.
                     </p>
                     <p className="personal-details--text">
                         Lastly, I love learning. Every day I push myself to learn something new, whether that be about data engineering, software engineering,
