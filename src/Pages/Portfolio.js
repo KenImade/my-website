@@ -149,7 +149,7 @@ function Portfolio() {
                                     <a href="https://github.com/KenImade/interactive-rating-component"><img src={gitImg} alt="git" className="project-img"/></a>
                                     <div className="project-info">
                                         <h3 className="project-title"><a href="https://github.com/KenImade/interactive-rating-component">
-                                           Landing Page</a>
+                                           Interactive Rating Component</a>
                                         </h3>
                                         <p>
                                             An interactive rating component. Project was sourced from Frontend Mentors
@@ -160,6 +160,23 @@ function Portfolio() {
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/interactive-rating-component" text="Github" />
                                             <StyledLink link="https://kenneths-interactive-rating-component.netlify.app" text="Live Site" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/components-library"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/components-library">
+                                           Components Library</a>
+                                        </h3>
+                                        <p>
+                                            A library that contains various components that can be reused on various websites.
+                                        </p>
+                                        <p>
+                                            Tools: HTML, CSS, JavaScript
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/components-library" text="Github" />
                                         </div>
                                     </div>
                                 </div>
