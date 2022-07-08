@@ -358,14 +358,14 @@ function About() {
                         <div className="about--texts">
                             <h3>My Journey So Far...</h3>
                             <p className="about--text">
-                                During my undergraduate internship I worked at Chevron's office in Lagos Nigeria, I worked in a department that
+                                During my undergraduate internship I worked at Chevron's office in Lagos Nigeria, I was placed in a department that
                                 dealt with optimizing the processes used in company projects. One of my projects was to gather data on oil wells
                                 this would be used in the creation of a Microsoft PowerBI dashboard which would aid in tracking the performance of
-                                oil wells owned by the company. This singular experience sparked my interest into the world of analytics.
+                                oil wells owned by the company. This singular experience sparked my interest into the world of software development.
                             </p>
                             <p className="about--text">
                                 After graudating, I decided to take the IBM Data Analytics program offered on Coursera. With that knowledge I volunteered
-                                at Omdena on a machine learning project. Currently, I now work as a Technology Solutions Intern with a consulting firm based
+                                at Omdena on a machine learning project. Currently, I now work as a Graduate Associate, with a consulting firm based
                                 in Lagos and continue to get exposed to more aspects of software development.
                             </p>
                         </div>
@@ -417,7 +417,25 @@ function About() {
                                                 Verraki Africa
                                             
                                         </p>
-                                        <p>July 2021 - Present</p>
+                                        <p>July 2021 - April 2022</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </FadeIn>
+                        <FadeIn>
+                            <div class="container right">
+                                <div class="content">
+                                    <a 
+                                        href="https://www.verraki.africa" 
+                                        target="_blank" rel="noreferrer"
+                                    >
+                                        <h2>Graduate Associate - Technology</h2>
+                                        <p>
+                                            
+                                                Verraki Africa
+                                            
+                                        </p>
+                                        <p>May 2022 - Present</p>
                                     </a>
                                 </div>
                             </div>
@@ -437,24 +455,28 @@ function About() {
                                 </a>
                                 <div className="answer">
                                     <p>
-                                        The main reason I created this website was to expand my knowledge in the software engineering space and
-                                        also because of my job. At my current job we are constantly encouraged to learn something new and that 
-                                        spurred me to take on a course in web development.
+                                        The main reason I created this website was to expand my knowledge in the software engineering space by learning more about frontend development.
                                     </p>
                                 </div>
                             </div>
-                            {/* <div className="accordion-item" id="question2">
+                            <div className="accordion-item" id="question2">
                                 <a className="accordion-link" href="#question2">
-                                    How long have you been programming?
+                                    What Frontend Technologies are you proficient in?
                                 </a>
                                 <div className="answer">
                                     <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla a pharetra leo. Fusce urna nulla, malesuada vitae volutpat nec, placerat at diam. Morbi semper, turpis vitae varius vestibulum, leo est tincidunt magna, sit amet rutrum sem sapien in orci.
-                                        Nullam eu enim quis massa ultricies dictum. Etiam magna quam, consequat eget nibh non, convallis finibus purus. Sed dapibus ipsum vitae dui blandit iaculis. Donec quis maximus erat.
+                                        I am proficient in the following frontend Technologies
+                                        <ul>
+                                            <li>HTML</li>
+                                            <li>CSS</li>
+                                            <li>JavaScript</li>
+                                            <li>ReactJs</li>
+                                            <li>Tailwind CSS</li>
+                                        </ul>
                                     </p>
                                 </div>
                             </div>
-                            <div className="accordion-item" id="question3">
+                            {/* <div className="accordion-item" id="question3">
                                 <a className="accordion-link" href="#question3">
                                     How long have you been programming?
                                 </a>
