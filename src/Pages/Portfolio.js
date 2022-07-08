@@ -5,6 +5,7 @@ import gitImg from "../images/git.jpg";
 import StyledSection from "./../components/Utils/StyledSection";
 import {SiDatabricks} from "react-icons/si";
 // import {GrCloudComputer} from "react-icons/gr";
+import {GrPersonalComputer} from "react-icons/gr";
 import {BsFileCode} from "react-icons/bs";
 import FadeIn from "../components/Utils/FadeIn";
 
@@ -96,7 +97,6 @@ const ProjectStyledSection = styled(StyledSection)`
     .project-section-title {
         font-size: 1.6rem;
         text-align: center;
-        margin-bottom: 15px;
 
         svg {
             margin-left: 10px;
@@ -123,6 +123,67 @@ function Portfolio() {
                     <ProjectStyledSection>
                         <FadeIn>
                             <div className="project-section-title-info">
+                                <GrPersonalComputer size="30px" />
+                                <h1 className="project-section-title">Frontend</h1>
+                            </div>
+                            <div className="project-list">
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/tailwind-landing-page"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/tailwind-landing-page">
+                                           Landing Page</a>
+                                        </h3>
+                                        <p>
+                                            A demo landing page built using tailwind css. Project was sourced from Frontend Mentors
+                                        </p>
+                                        <p>
+                                            Tools: HTML, Tailwind CSS, JavaScript
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/tailwind-landing-page" text="Github" />
+                                            <StyledLink link="https://kenneths-tailwind-landing-page.netlify.app" text="Live Site" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/interactive-rating-component"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/interactive-rating-component">
+                                           Interactive Rating Component</a>
+                                        </h3>
+                                        <p>
+                                            An interactive rating component. Project was sourced from Frontend Mentors
+                                        </p>
+                                        <p>
+                                            Tools: HTML, Tailwind CSS, JavaScript
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/interactive-rating-component" text="Github" />
+                                            <StyledLink link="https://kenneths-interactive-rating-component.netlify.app" text="Live Site" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="project-card">
+                                    <a href="https://github.com/KenImade/components-library"><img src={gitImg} alt="git" className="project-img"/></a>
+                                    <div className="project-info">
+                                        <h3 className="project-title"><a href="https://github.com/KenImade/components-library">
+                                           Components Library</a>
+                                        </h3>
+                                        <p>
+                                            A library that contains various components that can be reused on various websites.
+                                        </p>
+                                        <p>
+                                            Tools: HTML, CSS, JavaScript
+                                        </p>
+                                        <div className="project-links">
+                                            <StyledLink link="https://github.com/KenImade/components-library" text="Github" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </FadeIn>
+                        <FadeIn>
+                            <div className="project-section-title-info">
                                 <SiDatabricks size="30px" />
                                 <h1 className="project-section-title">Data Engineering</h1>
                             </div>
@@ -142,6 +203,9 @@ function Portfolio() {
                                         <p>
                                             This aim of this project was to use data gotten from the Cars45 website to predict the price of a used car in Nigeria
                                         </p>
+                                        <p>
+                                            Tools: Jupyter notebook, Python, Pandas, Numpy, BeautifulSoup, Seaborn, Matplotlib, Sklearn
+                                        </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria" text="Github" />
                                         </div>
@@ -157,6 +221,9 @@ function Portfolio() {
                                            Lead a team of six contributors to extract and clean datasets which were used in the
                                            training of the machine learing model that would be identifying populated areas with little
                                            or no electricity in Nigeria.
+                                        </p>
+                                        <p>
+                                            Tools: Jupyter notebook, Python, Pandas, Numpy, BeautifulSoup, Seaborn, Matplotlib, Sklearn
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/OmdenaAI/omdena-nigeria-energy" text="Github" />
@@ -179,6 +246,9 @@ function Portfolio() {
                                         </h3>
                                         <p>
                                             Built the popular blackjack card game to solidify my understanding of Java
+                                        </p>
+                                        <p>
+                                            Tools: Java
                                         </p>
                                         <div className="project-links">
                                             <StyledLink link="https://github.com/KenImade/blackjack" text="Github" />
