@@ -1,26 +1,27 @@
 import './styles/index.css';
 import { Route, Routes } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Home from './Pages/Home';
-import Portfolio from './Pages/Portfolio';
-import Blog from './Pages/Blog';
-import About from "./Pages/About"
+import Home from './Pages/Home/Home';
+import Blog from './Pages/Blog/Blog';
+import About from "./Pages/About/About"
 import TopNavigator from "./components/Utils/TopNavigator";
+import SharedLayout from './components/SharedLayout/SharedLayout';
+import Projects from './Pages/Projects/Projects';
+import Contact from './Pages/Contact';
 
 function App() {
 
   return (
     <>
-      <Navbar />
       <TopNavigator />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="portfolio" element={<Portfolio />} />
-        <Route path="blog" element={<Blog />}/>
+        <Route path="/" element={<SharedLayout />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="projects" element={<Projects />} />
+          <Route path="blog" element={<Blog />}/>
+          <Route path='contact' element={<Contact />} />
+        </Route>
       </Routes>
-      <Footer />
     </>
   );
 }

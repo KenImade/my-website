@@ -4,6 +4,9 @@
   --background-color: #f9f9ff;
   --headers-color: #222222;
   --hover-color: #8CC0DE;
+
+  --grey: #E0E2E7;
+  --blue: #9FBAF5;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -92,6 +95,18 @@ svg:hover {
 .reveal.active {
   transform: translateY(0);
   opacity: 1;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 0.5;
+  }
+  100% {
+      opacity: 1;
+  }
 }
 
 

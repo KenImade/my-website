@@ -7,7 +7,7 @@ function Navbar() {
 
     return (
         <section className="navbar">
-            <Link to="/"><h3 className="logo">K. Imade</h3></Link>
+            <Link to="/"><h3 className="logo">Kenneth Imade</h3></Link>
             <Navigation />
             <MobileNavigation />
         </section>

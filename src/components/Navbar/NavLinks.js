@@ -1,37 +1,45 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 function NavLinks(props) {
 
     return (
         <div className="nav--links">
-            <Link 
-                className="nav--link" 
+            <NavLink 
                 to="/"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
+                className={({isActive}) =>
+                    isActive ? "nav--link active" : "nav--link"
+                }
             >
                 Home
-            </Link>
-            <Link 
-                className="nav--link" 
+            </NavLink>
+            <NavLink 
                 to="/about"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
+                className={({isActive}) =>
+                    isActive ? "nav--link active" : "nav--link"
+                }
             >
                 About
-            </Link>
-            <Link 
-                className="nav--link" 
-                to="/portfolio"
+            </NavLink>
+            <NavLink 
+                to="/projects"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
+                className={({isActive}) =>
+                    isActive ? "nav--link active" : "nav--link"
+                }
             >
-                Portfolio
-            </Link>
-            <Link 
-                className="nav--link" 
+                Projects
+            </NavLink>
+            <NavLink 
                 to="/blog"
                 onClick={()=> props.isMobile && props.closeMobileMenu()}
+                className={({isActive}) =>
+                    isActive ? "nav--link active" : "nav--link"
+                }
             >
                 Blog
-            </Link>
+            </NavLink>
 
             <a 
                 href="https://drive.google.com/file/d/1kGrbaAUOwzSZwM0IUgincA7dmyjabq2m/view?usp=sharing" 

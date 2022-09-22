@@ -1,0 +1,18 @@
+.layout {
+    height: 100vh;
+    background-color: var(--grey);
+    padding: 10px;
+    /* overflow: auto; */
+}
+
+.outline {
+    border: 2px solid var(--blue);
+    height: 100%;
+    border-radius: 8px;
+    overflow-y: auto;
+}
+
+
+.outline::-webkit-scrollbar {
+    width: 3px;
+}
