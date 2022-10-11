@@ -1,0 +1,12 @@
+[
+    {
+        "title": "e-commerce website",
+        "desc": "Developed a dummy ecommerce website using React, Express, Node, and MongoDB. Users can use features such as browsing various product categories, adding products to cart, and complete orders.",
+        "tags": ["react", "express", "node", "mongoDB"],
+        "links": {
+            "gitHub": "https://github.com/KenImade/ecommerce-project",
+            "website": "https://kenimade.tech",
+            "article": "https://kenimade.tech"
+        }
+    }
+]

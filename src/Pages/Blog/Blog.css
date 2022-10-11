@@ -23,15 +23,19 @@
 
 .blog .blog-list .blog-card {
     width: 400px;
-    height: 350px;
+    height: 380px;
     background-color: #FFFFFF;
     border-radius: 8px;
     padding: 24px;
 }
 
+.blog .blog-list .blog-card .date {
+    margin-bottom: 10px;
+}
+
 .blog-card .blog-card-img {
     height: 200px;
-    width: 350px;
+    max-width: 350px;
     margin-bottom: 30px;
 }
 
@@ -43,6 +47,7 @@
 
 .blog-list .blog-card .blog-card-title {
     text-transform: uppercase;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -55,4 +60,18 @@
 
 .blog-list .blog-card .blog-card-link {
     font-weight: bold;
+}
+
+@media (max-width: 780px ) {
+    .blog .blog-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog .blog-list .blog-card {
+        width: 300px;
+        height: 350px;
+    }
 }

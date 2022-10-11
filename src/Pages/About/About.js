@@ -11,7 +11,7 @@ const About = () => {
                 the cool things I've built on the web and also ideas or software engineering concepts I've written about.
             </p>
             <p>
-                Currently I'm a graduate student at the University of Leeds, studying a Masters in Business analytics and Decision Sciences.
+                Currently, I'm a graduate student at the University of Leeds, studying a Masters in Business analytics and Decision Sciences.
                 I'm also a student at the <span><a style={{fontSize: "20px", textDecoration: "underline"}} href="https://www.alxafrica.com">ALx</a></span> software engineering bootcamp.
             </p>
             <p>

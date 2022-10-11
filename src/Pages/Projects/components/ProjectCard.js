@@ -1,6 +1,5 @@
 
 const ProjectCard = ({projectData}) => {
-
     return (
         <section className='project-card'>
             <h3 className='project-card-title'>{projectData.title}</h3>
