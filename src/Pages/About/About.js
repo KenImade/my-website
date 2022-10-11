@@ -1,9 +1,15 @@
 import "./About.css";
+import icon from "../../images/Icon.png";
 
 const About = () => {
   return (
     <section className="about">
-        <h1>about me</h1>
+
+        <div className="title">
+            <h1>about me</h1>
+            <img src={icon} alt="icon" />
+        </div>
+        
 
         <section className="container">
             <p>
@@ -14,9 +20,9 @@ const About = () => {
                 Currently, I'm a graduate student at the University of Leeds, studying a Masters in Business analytics and Decision Sciences.
                 I'm also a student at the <span><a style={{fontSize: "20px", textDecoration: "underline"}} href="https://www.alxafrica.com">ALx</a></span> software engineering bootcamp.
             </p>
-            <p>
+            {/* <p>
             Before this I worked at a consulting firm in Lagos Nigeria, as a Graduate intern my day to day involved working as a Software Tester and Quality Assurance Analyst.
-            </p>
+            </p> */}
             <p>
                 You can contact me by email at <span style={{fontWeight: "700", fontSize: "inherit"}}>kenimade91@gmail.com</span> and also through
                 the following channels.
