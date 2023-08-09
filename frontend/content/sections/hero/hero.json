@@ -1,0 +1,22 @@
+{
+  "intro": "Hey",
+  "heroPhoto": {
+    "src": "../../images/lego-dummy.png",
+    "alt": "My Photo"
+  },
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "I'm Kenneth",
+  "subtitle": {
+    "prefix": "",
+    "highlight": "",
+    "suffix": ""
+  },
+  "description": "Business Analyst by Day, Data Wizard by Night, Always an Engineer at Heart.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

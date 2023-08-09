@@ -1,0 +1,86 @@
+{
+  "interests": [
+    {
+      "label": "Microsoft PowerBI",
+      "image": {
+        "src": "../../images/fbar-chart.png",
+        "alt": "chart icon"
+      }
+    },
+    {
+      "label": "Python",
+      "image": {
+        "src": "../../images/python_icon.png",
+        "alt": "python program"
+      }
+    },
+    {
+      "label": "SQL",
+      "image": {
+        "src": "../../images/sql_icon.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "R",
+      "image": {
+        "src": "../../images/r_icon.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Data Cleaning",
+      "image": {
+        "src": "../../images/file_document_data_icon.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Machine Learning",
+      "image": {
+        "src": "../../images/analytics_graph_online_statistics_icon.png",
+        "alt": ""
+      }
+    },
+    {
+      "label": "Cloud Platforms",
+      "image": {
+        "src": "../../images/database_cloud_cloud storage_computing_icon.png",
+        "alt": "cloud icon"
+      }
+    },
+    {
+      "label": "Data Analysis",
+      "image": {
+        "src": "../../images/data_analysis_icon.png",
+        "alt": "maginying glass and documnents"
+      }
+    },
+    {
+      "label": "Git",
+      "image": {
+        "src": "../../images/git_social media_icon.png",
+        "alt": "git icon"
+      }
+    },
+    {
+      "label": "Web Development",
+      "image": {
+        "src": "../../images/globe_internet_sphere_web_icon.png",
+        "alt": "globe internet sphere web icon"
+      }
+    },
+    {
+      "label": "Quantitative Analysis",
+      "image": {
+        "src": "../../images/application_stock_diagram_statistics_icon.png",
+        "alt": "stock diagram"
+      }
+    }
+  ],
+  "button": {
+    "visible": true,
+    "label": "+ Load More",
+    "initiallyShownInterests": 5
+  }
+}
