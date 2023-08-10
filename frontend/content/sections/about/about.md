@@ -1,6 +1,6 @@
 ---
 imageSrc: "../../images/kenneth_Imade.JPG"
-imageAlt: "About Gatsby Theme Portfolio Minimal"
+imageAlt: "Kenneth Imade"
 ---
 Hey there! I'm Kenneth. 🚀
 
