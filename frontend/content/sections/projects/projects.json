@@ -2,32 +2,32 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "web development",
+      "title": "Ecommerce website",
+      "description": "I developed an ecommerce website using the MERN (MongoDB, Express, React, NodeJS) stack.",
+      "tags": ["React", "MongoDB", "Express", "NodeJS"],
       "image": {
         "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
         "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "linkTo": "https://github.com/KenImade/ecommerce-project"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/KenImade/ecommerce-project"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": ""
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "Web Scraping",
+      "title": "Right Move Web Scraper",
+      "description": "Created a web scraper to get data from the website rightmove.co.uk",
+      "tags": ["Python", "Jupyter Notebooks", "SQL", "selenium"],
       "image": {
         "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
         "alt": "Extendable Layout"
@@ -35,7 +35,7 @@
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/KenImade/right_move_scraper"
         }
       ]
     }
