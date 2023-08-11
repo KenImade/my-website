@@ -79,7 +79,7 @@ export default function ProjectCard({ project, imageData }) {
           </Title>
           {/* Render the project description */}
           <Desc>{project.description}</Desc>
-          {project.tags.map(tag => <Tag key={tag}>#{tag}</Tag>)}
+          {project.tags.map((tag, idx) => <Tag key={idx}>#{tag}</Tag>)}
         </Content>
 
         {/* Render each link associated with the project */}
