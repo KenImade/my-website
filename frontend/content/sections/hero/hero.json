@@ -1,20 +1,20 @@
 {
-  "intro": "Hey",
+  "intro": "Hey, I'm Kenneth",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/blog_icon.png",
     "alt": "My Photo"
   },
   "image": {
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm Kenneth",
+  "title": "",
   "subtitle": {
     "prefix": "",
-    "highlight": "",
+    "highlight": "Connecting Dots: From Backend Bytes to Data Insights.",
     "suffix": ""
   },
-  "description": "Business Analyst by Day, Data Wizard by Night, Always an Engineer at Heart.",
+  "description": "Dive into my world where the robust structure of web development integrates seamlessly with the power of data analytics.",
   "socialProfiles": {
     "from": ["LinkedIn", "Medium", "Github", "Mail"],
     "showIcons": true

@@ -2,8 +2,8 @@
   "siteMetadata": {
     "language": "en",
     "siteUrl": "https://kennethimade.dev/",
-    "title": "Kenneth Imade's Portfolio",
-    "titleTemplate": "%s · Portfolio Minimal",
+    "title": "Kenneth Imade",
+    "titleTemplate": "%s · Kenneth Imade",
     "description": "Website to showcase Kenneth Imade's work as a Software Engineer",
     "author": "Kenneth Imade",
     "avatar": "../content/images/blog_icon.png",
