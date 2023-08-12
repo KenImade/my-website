@@ -46,7 +46,7 @@ const Projects = () => {
           <Section>
             <h3 className="style-module--Heading--2c002">Projects</h3>
             <FilterContainer>
-              <label>Filter by Category: </label>
+              <p>Filter by Category: </p>
               {categories.map(category => (
                 <FilterButton 
                   key={category}

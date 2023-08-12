@@ -2,12 +2,12 @@
   "projects": [
     {
       "visible": true,
-      "category": "web development",
-      "title": "Ecommerce website",
-      "description": "I developed an ecommerce website using the MERN (MongoDB, Express, React, NodeJS) stack.",
+      "category": "Web Development",
+      "title": "Ecommerce Website",
+      "description": "Developed an ecommerce website using the MERN (MongoDB, Express, React, NodeJS) stack.",
       "tags": ["React", "MongoDB", "Express", "NodeJS"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
+        "src": "../../images/pub.JPG",
         "alt": "Quick Setup",
         "linkTo": "https://github.com/KenImade/ecommerce-project"
       },
@@ -27,9 +27,9 @@
       "category": "Web Scraping",
       "title": "Right Move Web Scraper",
       "description": "Created a web scraper to get data from the website rightmove.co.uk",
-      "tags": ["Python", "Jupyter Notebooks", "SQL", "selenium"],
+      "tags": ["Python", "Jupyter Notebooks", "SQL", "Selenium"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/my_laptop.JPEG",
         "alt": "Extendable Layout"
       },
       "links": [
