@@ -2,6 +2,7 @@ module.exports = {
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
+    `gatsby-plugin-netlify`,
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
