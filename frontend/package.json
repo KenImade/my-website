@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-portfolio-minimal-theme",
+  "name": "kenneth_imade_portfolio",
   "version": "1.0.0",
-  "description": "A Gatsby Starter Project to easily get started with the Portfolio Minimal Theme.",
+  "description": "Portfolio of Kenneth Imade",
   "scripts": {
     "clean": "gatsby clean",
     "develop": "gatsby develop",
-    "build": "gatsby build",
+    "build": "npx gatsby build",
     "serve": "gatsby serve"
   },
   "engines": {
@@ -27,16 +27,16 @@
     "react-dom": "^18.2.0",
     "styled-components": "^6.0.7"
   },
-  "author": "Konstantin Münster <mail@konstantin.digital>",
+  "author": "Kenneth Imde <kenimade91@gmail.com>",
   "license": "0BSD",
-  "starter-name": "gatsby-starter-portfolio-minimal-theme",
-  "homepage": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme#readme",
+  "starter-name": "kenneth_imade_portfolio",
+  "homepage": "https://kennethimade.dev",
   "repository": {
     "type": "git",
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme.git"
+    "url": "https://github.com/KenImade/my-website"
   },
   "bugs": {
-    "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme/issues"
+    "email": "kenimade91@gmail.com"
   },
   "keywords": [
     "react",
@@ -49,5 +49,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "gatsby-cli": "^5.11.0"
+  }
 }
