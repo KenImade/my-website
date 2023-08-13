@@ -4,12 +4,12 @@ sectionId: imprint
 
 #### Information pursuant to § 5 TMG
 
-YOURNAME<br />
-YOURSTREET<br />
-YOURCITY<br />
-YOURCOUNTRY
+Kenneth Imade<br />
+Clarendon Road<br />
+Leeds<br />
+United Kingdom
 
-E-Mail Address: <u>YOURMAIL@DOMAIN.COM</u>
+E-Mail Address: <u>admin@kennethimade.dev</u>
 
 ---
 
