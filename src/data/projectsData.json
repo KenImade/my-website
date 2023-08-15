@@ -7,9 +7,9 @@
       "description": "Developed an ecommerce website using the MERN (MongoDB, Express, React, NodeJS) stack.",
       "tags": ["React", "MongoDB", "Express", "NodeJS"],
       "image": {
-        "src": "images/pub.JPG",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/KenImade/ecommerce-project"
+        "src": "images/ecommerce_website.png",
+        "alt": "Screenshot of website",
+        "linkTo": "https://dummy-ecommerce-by-kenimade.netlify.app/"
       },
       "links": [
         {
@@ -18,13 +18,13 @@
         },
         {
           "type": "external",
-          "url": ""
+          "url": "https://dummy-ecommerce-by-kenimade.netlify.app/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "Web Scraping",
+      "category": "Data Science",
       "title": "Right Move Web Scraper",
       "description": "Created a web scraper to get data from the website rightmove.co.uk",
       "tags": ["Python", "Jupyter Notebooks", "SQL", "Selenium"],
@@ -53,6 +53,48 @@
         {
           "type": "github",
           "url": "https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Web Development",
+      "title": "Landing Page",
+      "description": "Created a landing page using figma design from frontend mentors",
+      "tags": ["HTML", "CSS", "JS"],
+      "image": {
+        "src": "images/landing_page.png",
+        "alt": "Landing page"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/KenImade/predicting_the_price_of_used_cars_in_Nigeria"
+        },
+        {
+          "type": "external",
+          "url": "https://kenneths-tailwind-landing-page.netlify.app/"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "Web Development",
+      "title": "Interactive Rating Component",
+      "description": "Developed an interactive rating component.",
+      "tags": ["HTML", "CSS", "JS"],
+      "image": {
+        "src": "images/interactive_component.png",
+        "alt": "Interactive Rating Component"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/KenImade/interactive-rating-component"
+        },
+        {
+          "type": "external",
+          "url": "https://kenneths-interactive-rating-component.netlify.app/"
         }
       ]
     }
