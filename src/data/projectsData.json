@@ -2,6 +2,28 @@
   "data": [
     {
       "visible": true,
+      "category": "Data Science",
+      "title": "Optimizing automated real estate valuation methods with textual data",
+      "description": "Explored how textual data on real estate can be used in optimizing machine learning models usind in predicting the price of houses.",
+      "tags": ["Python", "Microsoft SQL Server", "Selenium", "Jupyter Notebooks"],
+      "image": {
+        "src": "images/my_laptop.JPEG",
+        "alt": "Picture of my dorm",
+        "linkTo": "https://github.com/KenImade/real_estate_price_predictor"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/KenImade/real_estate_price_predictor"
+        },
+        {
+          "type": "external",
+          "url": ""
+        }
+      ]
+    },
+    {
+      "visible": true,
       "category": "Web Development",
       "title": "Ecommerce Website",
       "description": "Developed an ecommerce website using the MERN (MongoDB, Express, React, NodeJS) stack.",
